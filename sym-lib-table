@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ARLISS_STM32_2026-symbols") (type "") (uri "${KIPRJMOD}/libs/symbols") (options "") (descr ""))
+)
