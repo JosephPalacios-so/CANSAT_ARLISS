@@ -254,7 +254,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "CANSAT_STM32_symbols"
+    ]
   },
   "meta": {
     "filename": "ARLISS_STM32_2026.kicad_pro",
@@ -459,7 +461,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-3",
     "variants": []
   },
   "sheets": [
@@ -486,6 +488,10 @@
     [
       "90e9a371-b783-4b2a-a8c2-544713e1ebd2",
       "VEML 7700 Sheet"
+    ],
+    [
+      "8549a18f-8dc0-4c64-a4df-732ef1c8a382",
+      "Alimentacion"
     ]
   ],
   "text_variables": {},
