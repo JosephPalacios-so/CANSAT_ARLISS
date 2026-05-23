@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "ARLISS-footprints") (type "") (uri "${KIPRJMOD}/libs/footprints.pretty") (options "") (descr ""))
+	(lib (name "ARLISS-footprints") (type "KiCad") (uri "${KIPRJMOD}/libs//easyeda2kicad.pretty") (options "") (descr ""))
 )
