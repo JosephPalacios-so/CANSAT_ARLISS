@@ -1,0 +1,581 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d9aebf44-3e81-43c3-860f-2e6a6ab8f204")
+	(paper "A4")
+	(lib_symbols
+		(symbol "CANSAT_STM32_symbols:INA226AIDGSR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INA226AIDGSR"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Current-Regulation_TI_INA226AIDGSR_INA226AIDGSR_C49851.html"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "INA226AIDGSR"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C49851"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PMIC - Current & Power Monitors & Regulators"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "INA226AIDGSR_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "Alert"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "VS+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "CANSAT_STM32_symbols:INA226AIDGSR")
+		(at 161.29 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "587f90ba-373d-4d54-99f8-e6903686c98b")
+		(property "Reference" "U8"
+			(at 161.29 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA226AIDGSR"
+			(at 161.29 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL"
+			(at 161.29 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Current-Regulation_TI_INA226AIDGSR_INA226AIDGSR_C49851.html"
+			(at 161.29 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 161.29 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "INA226AIDGSR"
+			(at 161.29 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C49851"
+			(at 161.29 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55f09429-6044-4f27-9fbc-924a6c8daacb")
+		)
+		(pin "4"
+			(uuid "1ed17a3e-4820-49e8-8cf7-4428597ba4b4")
+		)
+		(pin "6"
+			(uuid "5b7a4d70-b524-4b18-90a9-c96e02cead99")
+		)
+		(pin "2"
+			(uuid "c6f9f107-f56c-4796-8081-ac9ba8fb02d8")
+		)
+		(pin "3"
+			(uuid "f38dca50-d92d-4bc2-9db3-ab1b8837dc91")
+		)
+		(pin "5"
+			(uuid "7cb75c42-e96d-4137-9aa4-25af5ac2d367")
+		)
+		(pin "7"
+			(uuid "0875f3e0-6570-497b-a062-c1ad77c74e75")
+		)
+		(pin "10"
+			(uuid "c96a83a5-381e-4ff3-989f-2d84156a06ce")
+		)
+		(pin "9"
+			(uuid "320dc15c-6364-41ff-a1ac-ad50da314f07")
+		)
+		(pin "8"
+			(uuid "01ab3a70-d55f-4e24-8098-94d1d30ffc5a")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CANSAT_STM32_symbols:INA226AIDGSR")
+		(at 115.57 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80aa17f8-d60e-45d8-aa69-3f979dd561e3")
+		(property "Reference" "U7"
+			(at 115.57 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA226AIDGSR"
+			(at 115.57 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL"
+			(at 115.57 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Current-Regulation_TI_INA226AIDGSR_INA226AIDGSR_C49851.html"
+			(at 115.57 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 115.57 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "INA226AIDGSR"
+			(at 115.57 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C49851"
+			(at 115.57 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "440d373c-9172-44ef-a8fc-4fbb6dbb0872")
+		)
+		(pin "4"
+			(uuid "4ca3d0bd-431b-4403-9926-b0f959503763")
+		)
+		(pin "6"
+			(uuid "cd34daa7-a75f-4e2a-aae3-0462eba2c310")
+		)
+		(pin "2"
+			(uuid "043e3628-2275-4060-8559-643469243b1e")
+		)
+		(pin "3"
+			(uuid "0e0d4bf6-b7e4-4734-9dc9-30a8d08435e2")
+		)
+		(pin "5"
+			(uuid "b40b9ea4-2f7c-4393-b33e-60744911faab")
+		)
+		(pin "7"
+			(uuid "82e6605a-e3c8-4886-922a-b04aa512db49")
+		)
+		(pin "10"
+			(uuid "fc0e6ddb-fb85-4c31-8db8-6b3a90ab8edc")
+		)
+		(pin "9"
+			(uuid "09a8a072-f3fc-4a9f-ad57-6477a715177b")
+		)
+		(pin "8"
+			(uuid "eedd0783-bbcc-4a45-977d-b73ed5f356af")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

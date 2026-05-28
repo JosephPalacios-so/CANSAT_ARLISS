@@ -475,7 +475,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "C22,X1",
+    "used_designators": "J5,R1-6,R25-27,D7,#PWR34,#PWR55,#PWR60-64,#PWR71,#PWR89,Q4",
     "variants": []
   },
   "sheets": [
@@ -506,6 +506,18 @@
     [
       "8549a18f-8dc0-4c64-a4df-732ef1c8a382",
       "Alimentacion"
+    ],
+    [
+      "5dc414a7-f6ea-4307-9bff-662079fd3375",
+      "Acelerómetro"
+    ],
+    [
+      "5b57be68-8372-451f-98b5-1e3ec0294f41",
+      "Heating_resistance"
+    ],
+    [
+      "ab32e2f2-c1ef-4371-b792-79aca0b2219e",
+      "Current_sensor"
     ]
   ],
   "text_variables": {},

@@ -109,6 +109,96 @@
 				(justify left)
 			)
 		)
+		(pin "IMODE2" input
+			(at 190.5 34.29 90)
+			(uuid "bc6cbd85-102b-452f-a1ed-777bb5795a61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCP2" input
+			(at 194.31 34.29 90)
+			(uuid "07e75bfc-a350-4ca0-8d35-a70256b0282f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMODE1" input
+			(at 175.26 58.42 270)
+			(uuid "d71a7537-4f53-443d-b9bf-64934e3a914d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1+" input
+			(at 184.15 58.42 270)
+			(uuid "9006b92f-2f39-4cef-b471-6e3082c70f1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1-" input
+			(at 190.5 58.42 270)
+			(uuid "b7e498af-265b-4a82-82e3-25ae043d43fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nFAULT" input
+			(at 196.85 58.42 270)
+			(uuid "6f0389f8-bd28-412f-bac8-ee8c89ff8c95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nFAULT1" input
+			(at 201.93 58.42 270)
+			(uuid "27b2d348-eb71-457a-af54-5a2e336062b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nFAULT2" input
+			(at 205.74 58.42 270)
+			(uuid "31e53029-0f32-44c6-a27e-b297a510e882")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCP1" input
+			(at 209.55 58.42 270)
+			(uuid "fe7db28e-b5d0-4237-8795-bfb63de55b66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f"
@@ -155,10 +245,142 @@
 				(justify left top)
 			)
 		)
+		(pin "RX" input
+			(at 69.85 57.15 270)
+			(uuid "7beb9403-834b-4f22-9026-df6bbaba7bf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 64.77 57.15 270)
+			(uuid "68a9e2c2-f152-4396-80de-7a276b54a342")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 58.42 57.15 270)
+			(uuid "a1f813fb-612c-48a6-86a4-19b5568f9c70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" input
+			(at 53.34 57.15 270)
+			(uuid "f3d34799-87f5-45d3-affd-c10d89f0389d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 106.68)
+		(size 33.02 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5b57be68-8372-451f-98b5-1e3ec0294f41")
+		(property "Sheetname" "Heating_resistance"
+			(at 115.57 105.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NICROM.kicad_sch"
+			(at 115.57 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 105.41)
+		(size 36.83 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5dc414a7-f6ea-4307-9bff-662079fd3375")
+		(property "Sheetname" "Acelerómetro"
+			(at 48.26 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADXL375.kicad_sch"
+			(at 48.26 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f"
+					(page "8")
 				)
 			)
 		)
@@ -297,6 +519,52 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 107.95)
+		(size 46.99 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ab32e2f2-c1ef-4371-b792-79aca0b2219e")
+		(property "Sheetname" "Current_sensor"
+			(at 170.18 107.2384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INA226_sensor_sch.kicad_sch"
+			(at 170.18 128.8546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f"
+					(page "10")
 				)
 			)
 		)
