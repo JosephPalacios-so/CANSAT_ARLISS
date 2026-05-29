@@ -607,6 +607,640 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CANSAT_STM32_symbols:TCC0402X7R104J500AT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100nF"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0402"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5448844.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "CCTC(三环)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TCC0402X7R104J500AT"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C5448844"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TCC0402X7R104J500AT_0_1"
+				(polyline
+					(pts
+						(xy -0.51 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CANSAT_STM32_symbols:UCM1H101MCL1GS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100uF"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C729685.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Nichicon(尼吉康)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "UCM1H101MCL1GS"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C729685"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Aluminum Electrolytic Capacitors - SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "UCM1H101MCL1GS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.78 1.78) (xy -1.78 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 1.78) (xy -0.51 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.13 -1.75)
+					(mid 0.4201 0.0241)
+					(end 1.15 1.79)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CANSAT_STM32_symbols:YLED0603G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green LED"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LED0603-FD"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C19273151.pdf"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YONGYUTAI(永裕泰)"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "YLED0603G"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C19273151"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED Indication - Discrete"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "YLED0603G_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.51) (xy 1.27 -1.27) (xy -1.27 -3.05) (xy -1.27 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 2.29 2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.51) (xy 1.27 -3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.29 0.25) (xy 3.3 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.05 3.05) (xy 2.03 2.54) (xy 2.54 2.03) (xy 3.05 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.06 2.03) (xy 3.05 1.52) (xy 3.56 1.02) (xy 4.06 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
@@ -1036,387 +1670,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_US"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1540,6 +1793,184 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2111,12 +2542,6 @@
 		(uuid "c59cdc9a-9c04-4b67-9143-f31396bb9204")
 	)
 	(junction
-		(at 229.87 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "003d54ed-d6d5-493e-812f-e5cfea64653a")
-	)
-	(junction
 		(at 143.51 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2141,22 +2566,28 @@
 		(uuid "0fe183ce-9473-4037-8897-c9bff4500b03")
 	)
 	(junction
-		(at 217.17 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "132a19b9-db40-42c8-a22e-9718533c3cc2")
-	)
-	(junction
 		(at 222.25 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a37f779-778c-48d3-8f54-fc1aa754878f")
 	)
 	(junction
+		(at 242.57 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "477e3de3-fdf3-4cad-a52f-3f3e6067dcc9")
+	)
+	(junction
 		(at 138.43 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a7bcba5-2a89-4b77-9a2a-0ca8ce15c991")
+	)
+	(junction
+		(at 229.87 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56137d0b-e226-46b0-be6d-70bcefe2ae25")
 	)
 	(junction
 		(at 236.22 110.49)
@@ -2177,16 +2608,16 @@
 		(uuid "9563d4ae-8dcc-4c49-944e-f72997f6dda2")
 	)
 	(junction
-		(at 203.2 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aef612cc-b15f-471c-8df6-bdf58f5c8d73")
-	)
-	(junction
 		(at 148.59 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b22d7ddc-def8-457b-ae96-166f7568e340")
+	)
+	(junction
+		(at 215.9 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bced5ecd-e753-46d0-b2af-4841f19d899f")
 	)
 	(junction
 		(at 153.67 40.64)
@@ -2216,13 +2647,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 140.97) (xy 195.58 139.7)
+			(xy 229.87 140.97) (xy 229.87 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07de3691-6c66-4cc3-bdb9-868b8ab76c5a")
+		(uuid "0aca6eee-5640-4394-ab13-996a32ebb5b5")
 	)
 	(wire
 		(pts
@@ -2236,6 +2667,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 151.13) (xy 229.87 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b87b93a-1d98-43a1-af00-229b04321dda")
+	)
+	(wire
+		(pts
 			(xy 191.77 100.33) (xy 199.39 100.33)
 		)
 		(stroke
@@ -2243,16 +2684,6 @@
 			(type default)
 		)
 		(uuid "0c7e1504-2bee-4806-9c17-054c962d1fbf")
-	)
-	(wire
-		(pts
-			(xy 229.87 138.43) (xy 229.87 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0df609af-91f2-4064-9397-ff308c521491")
 	)
 	(wire
 		(pts
@@ -2276,6 +2707,26 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 29.21) (xy 229.87 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15497178-f926-4e9e-987d-a3c19d628000")
+	)
+	(wire
+		(pts
+			(xy 250.19 130.81) (xy 250.19 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195bf1cd-c997-4156-ac4b-4ec5a9d1e3ec")
+	)
+	(wire
+		(pts
 			(xy 208.28 113.03) (xy 208.28 107.95)
 		)
 		(stroke
@@ -2283,16 +2734,6 @@
 			(type default)
 		)
 		(uuid "1f8dabad-a682-462e-ad37-c1d5ae59aa0d")
-	)
-	(wire
-		(pts
-			(xy 232.41 36.83) (xy 232.41 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23a3ad57-147b-46d0-a704-d906f134a1f5")
 	)
 	(wire
 		(pts
@@ -2346,6 +2787,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 138.43) (xy 242.57 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9f351f-4504-4cdc-9626-07f3557552c0")
+	)
+	(wire
+		(pts
 			(xy 158.75 102.87) (xy 163.83 102.87)
 		)
 		(stroke
@@ -2383,6 +2834,16 @@
 			(type default)
 		)
 		(uuid "2e8efc7d-4d21-4545-b838-3c4d516942a4")
+	)
+	(wire
+		(pts
+			(xy 215.9 138.43) (xy 229.87 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315dc544-5757-4448-8d9f-c824fbedcef9")
 	)
 	(wire
 		(pts
@@ -2456,16 +2917,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 48.26) (xy 232.41 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4075480f-26b9-4efe-8f4a-d4725f95853c")
-	)
-	(wire
-		(pts
 			(xy 270.51 29.21) (xy 270.51 35.56)
 		)
 		(stroke
@@ -2496,16 +2947,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 27.94) (xy 232.41 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47b2785f-516e-44f4-81ed-49291f91024b")
-	)
-	(wire
-		(pts
 			(xy 151.13 140.97) (xy 153.67 140.97)
 		)
 		(stroke
@@ -2516,26 +2957,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 149.86) (xy 229.87 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c3e80b4-db78-4150-bdb8-ae2da78ea47f")
-	)
-	(wire
-		(pts
-			(xy 217.17 142.24) (xy 217.17 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fd64998-d5ed-41c3-b80d-b2622014f832")
-	)
-	(wire
-		(pts
 			(xy 250.19 105.41) (xy 250.19 109.22)
 		)
 		(stroke
@@ -2543,6 +2964,16 @@
 			(type default)
 		)
 		(uuid "501bbcc8-ff9f-4d97-a234-fe17308d0764")
+	)
+	(wire
+		(pts
+			(xy 215.9 152.4) (xy 215.9 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a65cf5-5b87-4105-9a0f-35165b6c5e1f")
 	)
 	(wire
 		(pts
@@ -2576,6 +3007,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 137.16) (xy 242.57 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c129d95-658a-4e46-9700-d0b46c769b68")
+	)
+	(wire
+		(pts
 			(xy 165.1 38.1) (xy 168.91 38.1)
 		)
 		(stroke
@@ -2596,6 +3037,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 54.61) (xy 229.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd85850-23e3-4f2a-8b76-e20557871e58")
+	)
+	(wire
+		(pts
 			(xy 196.85 25.4) (xy 200.66 25.4)
 		)
 		(stroke
@@ -2606,7 +3057,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 77.47) (xy 234.95 80.01)
+			(xy 229.87 20.32) (xy 229.87 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66839bf1-0ecb-469c-bd65-8dd1652089e0")
+	)
+	(wire
+		(pts
+			(xy 234.95 80.01) (xy 234.95 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2636,16 +3097,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 139.7) (xy 229.87 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72f3bb17-1391-44ce-a2b8-1e8991954a14")
-	)
-	(wire
-		(pts
 			(xy 158.75 107.95) (xy 163.83 107.95)
 		)
 		(stroke
@@ -2653,16 +3104,6 @@
 			(type default)
 		)
 		(uuid "73a9dd3f-9cea-4fe3-b078-23d1e5ddedc5")
-	)
-	(wire
-		(pts
-			(xy 203.2 143.51) (xy 203.2 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74befd38-c0c1-4592-8501-b87a1c06f1a2")
 	)
 	(wire
 		(pts
@@ -2716,13 +3157,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 77.47) (xy 222.25 78.74)
+			(xy 222.25 80.01) (xy 222.25 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d70a1d5-2162-4121-bc14-23fdc46c975b")
+		(uuid "79dea765-4dbe-4c93-bb65-20d84b4720af")
 	)
 	(wire
 		(pts
@@ -2753,16 +3194,6 @@
 			(type default)
 		)
 		(uuid "91064903-351d-40bd-8021-eab0d9bbabd5")
-	)
-	(wire
-		(pts
-			(xy 217.17 139.7) (xy 229.87 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "921fab72-b8e6-492f-9975-755abdb7e756")
 	)
 	(wire
 		(pts
@@ -2836,16 +3267,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 116.84) (xy 250.19 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a092b8f9-870b-448d-8b31-1ee2a8389a1a")
-	)
-	(wire
-		(pts
 			(xy 234.95 66.04) (xy 234.95 67.31)
 		)
 		(stroke
@@ -2866,16 +3287,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 139.7) (xy 217.17 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7eae302-4f74-4c46-9f0a-d6e925cab073")
-	)
-	(wire
-		(pts
 			(xy 195.58 113.03) (xy 191.77 113.03)
 		)
 		(stroke
@@ -2883,6 +3294,16 @@
 			(type default)
 		)
 		(uuid "aa8ec507-b66c-4ff3-bfa1-fceae815249b")
+	)
+	(wire
+		(pts
+			(xy 242.57 151.13) (xy 242.57 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab05e877-eccf-4a7e-b948-c262bdc6dd30")
 	)
 	(wire
 		(pts
@@ -2956,6 +3377,36 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 138.43) (xy 242.57 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a39512-60ed-41b7-a380-a892898ea487")
+	)
+	(wire
+		(pts
+			(xy 229.87 43.18) (xy 229.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacb039b-1608-4b38-be83-775deb457995")
+	)
+	(wire
+		(pts
+			(xy 250.19 119.38) (xy 250.19 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03e4d6a-cc37-44db-8036-631deef743b2")
+	)
+	(wire
+		(pts
 			(xy 151.13 146.05) (xy 153.67 146.05)
 		)
 		(stroke
@@ -2983,6 +3434,16 @@
 			(type default)
 		)
 		(uuid "c29441a3-4ca7-4dcf-9539-0ce6613f1c66")
+	)
+	(wire
+		(pts
+			(xy 207.01 138.43) (xy 215.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c418253d-fe5b-403f-a1fe-627e509ddcbb")
 	)
 	(wire
 		(pts
@@ -3077,23 +3538,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 139.7) (xy 203.2 139.7)
+			(xy 207.01 139.7) (xy 207.01 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3b2820f-5717-4aa4-adb4-82d222e83933")
+		(uuid "e17cf760-eb97-4046-9150-5c52a99fbd8a")
 	)
 	(wire
 		(pts
-			(xy 217.17 149.86) (xy 217.17 151.13)
+			(xy 215.9 142.24) (xy 215.9 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e74cc8c6-1fdc-4c97-aa81-084593dfc012")
+		(uuid "ef69cf40-bfe8-4ec6-b123-e5227e70b263")
 	)
 	(wire
 		(pts
@@ -3154,6 +3615,16 @@
 			(type default)
 		)
 		(uuid "fce24637-7b1f-4b9e-8a01-32ed35c7d508")
+	)
+	(wire
+		(pts
+			(xy 208.28 81.28) (xy 208.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd04918a-d1f9-46e1-af04-8318b2500330")
 	)
 	(wire
 		(pts
@@ -14619,16 +15090,16 @@
 		)
 		(uuid "1e0f18f2-b984-4378-abd9-059af4a90420")
 	)
-	(hierarchical_label "VCP2"
+	(hierarchical_label "nFAULT2"
 		(shape input)
-		(at 229.87 152.4 270)
+		(at 229.87 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "27514ebd-3e9f-4469-863d-50036d5e20ee")
+		(uuid "289cb2b3-ea87-4a41-ba4b-0eaccc20db78")
 	)
 	(hierarchical_label "nFAULT2"
 		(shape input)
@@ -14654,7 +15125,7 @@
 	)
 	(hierarchical_label "VCP2"
 		(shape input)
-		(at 234.95 80.01 270)
+		(at 234.95 82.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14706,17 +15177,6 @@
 			(justify left)
 		)
 		(uuid "6479bd0d-7774-4f50-869c-0db57908b3b7")
-	)
-	(hierarchical_label "nFAULT2"
-		(shape input)
-		(at 232.41 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "652428b8-984f-494e-a73c-c66f1fd9fc8a")
 	)
 	(hierarchical_label "IMODE1"
 		(shape input)
@@ -14808,7 +15268,7 @@
 	)
 	(hierarchical_label "nFAULT"
 		(shape input)
-		(at 250.19 123.19 0)
+		(at 250.19 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14827,6 +15287,17 @@
 			(justify right)
 		)
 		(uuid "bfbe09b8-41d0-4409-ad3d-c918bf5d5b7e")
+	)
+	(hierarchical_label "VCP2"
+		(shape input)
+		(at 242.57 153.67 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c73121d9-46aa-4b06-abdb-c521eb880ad6")
 	)
 	(hierarchical_label "M1+"
 		(shape input)
@@ -15127,41 +15598,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 203.2 147.32 0)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 250.19 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13655a4c-8fe9-4847-8502-ebf55b6e7650")
-		(property "Reference" "C7"
-			(at 207.01 145.4149 0)
+		(uuid "0cbd0bce-8c44-46c9-8e3a-f54e766a48f0")
+		(property "Reference" "JP2"
+			(at 252.73 124.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100uF"
-			(at 207.01 147.9549 0)
+		(property "Value" "SolderJumper_2_Open"
+			(at 252.73 126.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 147.32 0)
+			(at 250.19 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15172,7 +15643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 147.32 0)
+			(at 257.81 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15182,8 +15653,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 203.2 147.32 0)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 255.27 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15192,17 +15663,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "21c3fb5e-343e-4098-b135-680c664ea6cf")
 		)
 		(pin "2"
-			(uuid "7a103784-1388-4acf-97f4-cd3f2791a36d")
+			(uuid "52263e2d-f2be-4f5e-b6fe-2d81c5920ee3")
+		)
+		(pin "1"
+			(uuid "fc38a2c1-ff27-4700-933f-f0ad0cfb8580")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "C7")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -15368,88 +15839,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 232.41 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b4c847e-65ce-4240-8206-acca8494bd46")
-		(property "Reference" "RLED2"
-			(at 234.95 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330"
-			(at 234.95 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 230.632 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 232.41 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2e275eb5-04a5-4b5d-99f0-07631dc0a9b6")
-		)
-		(pin "1"
-			(uuid "0093b7db-b939-4df6-932b-afea01fb8bba")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "RLED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 270.51 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -15459,7 +15848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "225a0444-0118-448e-ab83-949f1ca0bf1d")
+		(uuid "1d70c159-aa93-490d-b006-b25cc08f429e")
 		(property "Reference" "RIMODE2"
 			(at 273.05 38.0999 0)
 			(show_name no)
@@ -15482,7 +15871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 268.732 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -15493,7 +15882,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7274188.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVlNQQFVaUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1RXVlVWWQkaCgg%3D"
 			(at 270.51 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15515,11 +15904,22 @@
 				)
 			)
 		)
+		(property "LCSC" "C7274188"
+			(at 270.51 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "aa82f50a-e559-4b5f-9e3f-4aba80de746d")
+			(uuid "ed5aafe2-5bf7-46e4-9f9b-2820ed261a5d")
 		)
 		(pin "1"
-			(uuid "beddf257-9260-418a-be5d-8c4316d47c9d")
+			(uuid "ac6ca36f-3125-473c-adbe-5e0add0408f9")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
@@ -15643,7 +16043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 248.412 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -15676,6 +16076,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C6263897"
+			(at 250.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dfdcef7b-cb30-419e-8c49-1d0a2d3ffdb3")
 		)
@@ -15686,6 +16097,236 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
 					(reference "RLED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CANSAT_STM32_symbols:UCM1H101MCL1GS")
+		(at 215.9 147.32 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f75342a-f350-4bce-81f7-ebdded18f21f")
+		(property "Reference" "C4"
+			(at 218.44 146.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 218.44 148.5899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C729685.pdf"
+			(at 205.74 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nichicon(尼吉康)"
+			(at 203.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UCM1H101MCL1GS"
+			(at 200.66 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C729685"
+			(at 198.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f5c56ea-d36d-4c29-8807-98cf5e4dbaea")
+		)
+		(pin "2"
+			(uuid "3ae9a1d8-2989-4f48-b2a9-fc51e580c1d9")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CANSAT_STM32_symbols:YLED0603G")
+		(at 251.46 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "379ec817-c1e5-46dd-b19d-b9abacd716f9")
+		(property "Reference" "U11"
+			(at 255.27 113.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Green LED"
+			(at 255.27 116.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED0603-FD"
+			(at 242.57 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273151.pdf"
+			(at 240.03 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YONGYUTAI(永裕泰)"
+			(at 237.49 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "YLED0603G"
+			(at 234.95 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19273151"
+			(at 232.41 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef6cc58c-b3c3-4477-9175-a3be8d7fa685")
+		)
+		(pin "2"
+			(uuid "01ff58c3-a721-4148-97a7-e3d98d1b06aa")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -15771,8 +16412,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 256.54 35.56 0)
+		(lib_id "CANSAT_STM32_symbols:YLED0603G")
+		(at 231.14 38.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15781,20 +16422,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3c3dc69d-abd9-4df5-9fc6-dd6e2d4d7e36")
-		(property "Reference" "Rfault2"
-			(at 259.08 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 259.08 36.8299 0)
+		(uuid "4172a392-7ab2-49f7-a1eb-79b05380fc8d")
+		(property "Reference" "U12"
+			(at 234.95 37.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15804,8 +16434,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 254.762 35.56 90)
+		(property "Value" "Green LED"
+			(at 234.95 40.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED0603-FD"
+			(at 222.25 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15815,8 +16456,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 256.54 35.56 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273151.pdf"
+			(at 219.71 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15826,8 +16467,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 256.54 35.56 0)
+		(property "Description" ""
+			(at 231.14 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15837,16 +16478,163 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "d4825c13-29b4-47b4-ab63-121fac142a5e")
+		(property "Manufacturer" "YONGYUTAI(永裕泰)"
+			(at 217.17 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "YLED0603G"
+			(at 214.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19273151"
+			(at 212.09 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "1ce9d364-91ed-4150-b80a-218675d20642")
+			(uuid "06066b19-42a8-4edf-859c-eaf850977b6d")
+		)
+		(pin "2"
+			(uuid "6d582f64-5023-4cf0-ac45-cc93ca304e4a")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "Rfault2")
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CANSAT_STM32_symbols:SMBJ18A_C151256")
+		(at 207.01 144.78 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4645fdf1-dba4-4110-aad5-db402998bcf5")
+		(property "Reference" "D6"
+			(at 209.55 143.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ18A_C151256"
+			(at 201.93 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SMB_L4.3-W3.6-LS5.3-RD"
+			(at 199.39 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Littelfuse_SMBJ18A_SMBJ18A_C151256.html"
+			(at 196.85 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 194.31 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMBJ18A"
+			(at 191.77 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C151256"
+			(at 189.23 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2df0200-dfc6-413a-8f4e-0c7f9e0e52ed")
+		)
+		(pin "2"
+			(uuid "e580f996-3113-4820-8420-d3ca315427a8")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -15931,6 +16719,121 @@
 		)
 	)
 	(symbol
+		(lib_id "CANSAT_STM32_symbols:TCC0402X7R104J500AT")
+		(at 234.95 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a90460c-368f-48a6-a07f-bede95168dc8")
+		(property "Reference" "C33"
+			(at 238.76 73.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 238.76 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 242.57 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5448844.pdf"
+			(at 245.11 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "CCTC(三环)"
+			(at 247.65 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TCC0402X7R104J500AT"
+			(at 250.19 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5448844"
+			(at 252.73 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e7a2eaf-d2ba-4106-857e-103b0a675352")
+		)
+		(pin "1"
+			(uuid "3d0abede-7353-40ed-9b40-69d9a91321d0")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 250.19 96.52 0)
 		(unit 1)
@@ -16003,88 +16906,6 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 138.43 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "505246a4-5cd3-4442-b8b6-c7134a347035")
-		(property "Reference" "C6"
-			(at 142.24 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 142.24 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.3952 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 138.43 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3251b164-eaef-4aee-ba0f-6570e4d256fb")
-		)
-		(pin "2"
-			(uuid "a566a780-e937-4b4d-a561-2a255d3f4bf5")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16169,84 +16990,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VD")
-		(at 229.87 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58eab708-8871-4001-8363-7c2b99e65a13")
-		(property "Reference" "#PWR025"
-			(at 229.87 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VIN2"
-			(at 229.87 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VD\""
-			(at 229.87 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83c32c60-5d2c-4e7f-b376-c44dce1ff4bd")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 135.89 80.01 90)
 		(unit 1)
@@ -16320,84 +17063,6 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
 					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 232.41 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5a7e7f38-025a-461e-8a30-c571a9f7b7fd")
-		(property "Reference" "#PWR029"
-			(at 232.41 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 229.616 23.876 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 232.41 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2efe9f6e-f4fd-4821-8964-d9cfc8eb1dab")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16554,166 +17219,6 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.17 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ed18986-9d7c-46f9-ad0a-468ea16759d3")
-		(property "Reference" "#PWR024"
-			(at 217.17 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3cf27fdf-26e5-4534-8563-d91e1817eab6")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64843347-e9de-4709-8b00-341c29653bd3")
-		(property "Reference" "RIPROPI1"
-			(at 151.13 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.7K"
-			(at 151.13 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.812 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5b556985-74c2-49eb-9af2-63c698359967")
-		)
-		(pin "1"
-			(uuid "f400fabe-87bc-457a-af3f-344bb277ff2c")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "RIPROPI1")
 					(unit 1)
 				)
 			)
@@ -16878,6 +17383,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 229.87 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "693b1b55-768e-4573-a372-9545492131de")
+		(property "Reference" "JP3"
+			(at 232.41 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 232.41 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 234.95 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dec487a0-ec9a-43cc-9694-27f1de7af108")
+		)
+		(pin "1"
+			(uuid "804d5c5f-6b92-432f-a3a7-d38216e446a6")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 236.22 121.92 0)
 		(unit 1)
@@ -16950,6 +17537,255 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 229.87 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c92e781-5a2a-4f5f-98b8-01238cc025a9")
+		(property "Reference" "#PWR082"
+			(at 229.87 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 227.076 16.256 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 229.87 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b36ed40-5c87-4901-aa97-87f87801af05")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 212.09 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7460f7f4-a9aa-4e5a-a421-54b8f5cfe771")
+		(property "Reference" "C5"
+			(at 215.9 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22nF"
+			(at 215.9 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 213.0552 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C541460.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVVVQRVZXVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+			(at 212.09 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 212.09 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C541460"
+			(at 212.09 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7b2573d-74a3-45d9-b3ad-217d67c2e95c")
+		)
+		(pin "2"
+			(uuid "ad629598-55ff-48cc-a03b-242876c076cc")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76c42347-7eed-4fb5-8dc3-c88028c7deb6")
+		(property "Reference" "#PWR076"
+			(at 207.01 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd10f82f-f9f4-4b6b-8740-6abd5e4a7386")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -17035,6 +17871,121 @@
 		)
 	)
 	(symbol
+		(lib_id "CANSAT_STM32_symbols:TCC0402X7R104J500AT")
+		(at 242.57 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e7a132b-e537-412f-a6b2-fb5fe4d6d5fa")
+		(property "Reference" "C36"
+			(at 246.38 144.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 246.38 147.3199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 250.19 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5448844.pdf"
+			(at 252.73 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "CCTC(三环)"
+			(at 255.27 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TCC0402X7R104J500AT"
+			(at 257.81 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5448844"
+			(at 260.35 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "47117d68-a4d1-433b-abe1-d2abc52cf016")
+		)
+		(pin "1"
+			(uuid "355859f7-4f07-4083-92ef-bd3cd6f1995b")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 153.67 46.99 0)
 		(unit 1)
@@ -17068,7 +18019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.892 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -17079,7 +18030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19632297.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVVBfRFFXVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 153.67 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -17101,6 +18052,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19632297"
+			(at 153.67 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4d6d018a-0dd3-4136-b168-3ae7a6056a4f")
 		)
@@ -17111,6 +18073,84 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
 					(reference "RIPROPI2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VD")
+		(at 242.57 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90c5a535-33af-4446-a1f5-90d7888dcef1")
+		(property "Reference" "#PWR081"
+			(at 242.57 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VIN2"
+			(at 242.57 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VD\""
+			(at 242.57 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe7a6c28-ffb5-4d89-8e20-e09c9f5209ea")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -17195,88 +18235,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 208.28 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "969a2b84-348a-4ca7-a3f4-b6c874d4bce1")
-		(property "Reference" "C5"
-			(at 212.09 73.0249 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 212.09 75.5649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 208.28 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b15ad57-e20e-429e-8930-042bd568d896")
-		)
-		(pin "2"
-			(uuid "b5c7eb31-8d93-46f5-b191-0a5b0106f48c")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 125.73 0)
 		(unit 1)
@@ -17355,8 +18313,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 222.25 73.66 0)
+		(lib_id "CANSAT_STM32_symbols:TCC0402X7R104J500AT")
+		(at 229.87 146.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17365,9 +18323,135 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ed1f0f0-ad6c-488b-8a0b-f359735a0d3a")
-		(property "Reference" "C4"
-			(at 226.06 72.3899 0)
+		(uuid "997d8208-1e4e-4984-b518-377071cee0a7")
+		(property "Reference" "C35"
+			(at 233.68 144.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 233.68 147.3199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 237.49 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5448844.pdf"
+			(at 240.03 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "CCTC(三环)"
+			(at 242.57 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TCC0402X7R104J500AT"
+			(at 245.11 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5448844"
+			(at 247.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aefbe9bc-19dc-442f-b573-bafe1c59fdbd")
+		)
+		(pin "1"
+			(uuid "6c7c73be-83eb-4cc5-a850-b9117e55aee5")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d1b1e74-e509-4215-a4fa-248231d73452")
+		(property "Reference" "RIPROPI3"
+			(at 151.13 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7K"
+			(at 151.13 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17377,19 +18461,100 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 226.06 74.9299 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 146.812 119.38 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19632297.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVVBfRFFXVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
+			(at 148.59 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19632297"
+			(at 148.59 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c9bb540f-49c6-4ec7-b19e-0ba48b21266a")
+		)
+		(pin "1"
+			(uuid "96b77f8c-a5f9-41ef-afe8-bf9dbc90a2cb")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "RIPROPI3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e0e8ebc-09ce-48c2-980d-9ae11a495c12")
+		(property "Reference" "#PWR079"
+			(at 215.9 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" ""
-			(at 223.2152 77.47 0)
+			(at 215.9 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17400,7 +18565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 73.66 0)
+			(at 215.9 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17410,8 +18575,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, bypass capacitor"
-			(at 222.25 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17422,15 +18587,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a043ba09-cc30-440a-afd8-12973474b4aa")
-		)
-		(pin "2"
-			(uuid "e79b17f3-8705-4287-8335-d345d0404215")
+			(uuid "f4accca3-e6e0-48b2-87b1-cb996d62af58")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "C4")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -17549,7 +18711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 267.462 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -17560,7 +18722,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7274188.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVlNQQFVaUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1RXVlVWWQkaCgg%3D"
 			(at 269.24 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -17582,6 +18744,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7274188"
+			(at 269.24 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9c15f99e-b657-4218-a0d9-1c50d44c2f08")
 		)
@@ -17592,166 +18765,6 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
 					(reference "RIMODE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 203.2 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a36ad054-ed05-4e5a-8fc7-77d2326e3dd0")
-		(property "Reference" "#PWR023"
-			(at 203.2 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c50616cd-5336-4947-a4f7-474bcaf6d001")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 229.87 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9bab357-0744-4d12-8bc5-1665e33c5544")
-		(property "Reference" "C10"
-			(at 233.68 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 233.68 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 230.8352 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 229.87 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca6c385a-5a3f-476d-b5d5-df34fe978d5c")
-		)
-		(pin "2"
-			(uuid "f094fc12-1237-41d8-a3b0-d80401d341b0")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -17870,7 +18883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 234.442 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -17881,7 +18894,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7274188.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVlNQQFVaUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1RXVlVWWQkaCgg%3D"
 			(at 236.22 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -17893,6 +18906,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 236.22 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C859110"
 			(at 236.22 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -17920,7 +18944,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 78.74 0)
+		(at 208.28 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17931,7 +18955,7 @@
 		(fields_autoplaced yes)
 		(uuid "afb50904-0033-459c-bb49-321cf65df5f0")
 		(property "Reference" "#PWR015"
-			(at 208.28 85.09 0)
+			(at 208.28 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17942,7 +18966,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 83.82 0)
+			(at 208.28 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17952,7 +18976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 78.74 0)
+			(at 208.28 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17963,7 +18987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 78.74 0)
+			(at 208.28 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17974,7 +18998,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 78.74 0)
+			(at 208.28 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17997,183 +19021,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 212.09 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5182270-52db-44fe-979c-4b6d340f4980")
-		(property "Reference" "C8"
-			(at 215.9 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22nF"
-			(at 215.9 110.4899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.0552 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 212.09 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d17e340-6df2-4550-9751-8fa591ff0f36")
-		)
-		(pin "2"
-			(uuid "0dc6a04c-3165-4ff1-87e3-cdf9c2ab3fd5")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 232.41 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6999bb5-f24f-4722-8f38-ec9129cdfbf6")
-		(property "Reference" "D5"
-			(at 236.22 44.7674 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 236.22 47.3074 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 232.41 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 232.41 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1ed96d40-fd9f-4f65-afa6-899f6565cba1")
-		)
-		(pin "1"
-			(uuid "8776b93f-1786-45dd-8bb8-9507e1a3da59")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 222.25 78.74 0)
+		(at 222.25 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18184,7 +19033,7 @@
 		(fields_autoplaced yes)
 		(uuid "b898e357-712b-4c4d-87d0-5bad91bbf1ac")
 		(property "Reference" "#PWR014"
-			(at 222.25 85.09 0)
+			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18195,7 +19044,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 83.82 0)
+			(at 222.25 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18205,7 +19054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 78.74 0)
+			(at 222.25 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18216,7 +19065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 78.74 0)
+			(at 222.25 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18227,7 +19076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 78.74 0)
+			(at 222.25 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18244,88 +19093,6 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 217.17 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba41b0d4-4284-455c-b940-a437cfdd0a99")
-		(property "Reference" "C9"
-			(at 220.98 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 220.98 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.1352 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, bypass capacitor"
-			(at 217.17 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75f3c9c2-5b93-4361-b888-909c60736664")
-		)
-		(pin "2"
-			(uuid "d6af4d37-2abc-48c3-8236-1b9cff955f1c")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -18455,7 +19222,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C272878.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVVVQRVZXVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
 			(at 143.51 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -18467,6 +19234,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C272878"
 			(at 143.51 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -18604,7 +19382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 218.1352 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -18615,7 +19393,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C541460.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVVVQRVZXVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
 			(at 217.17 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -18627,6 +19405,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 217.17 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C541460"
 			(at 217.17 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -18732,8 +19521,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 234.95 73.66 0)
+		(lib_id "Device:R")
+		(at 229.87 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18742,9 +19531,20 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d4bf0478-4141-4504-985c-1a6511b6e967")
-		(property "Reference" "C3"
-			(at 238.76 72.3899 0)
+		(uuid "d1f32c4b-7632-4495-b796-8380aa032cb0")
+		(property "Reference" "RLED3"
+			(at 232.41 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 232.41 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18754,19 +19554,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 238.76 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 235.9152 77.47 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 228.092 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18777,7 +19566,100 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 73.66 0)
+			(at 229.87 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6263897"
+			(at 229.87 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e84bcc02-7f73-4642-8f62-1fbe08193c21")
+		)
+		(pin "1"
+			(uuid "64329447-40e4-4d58-b511-358221b86080")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "RLED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d247ab3f-9b7e-462a-8f1f-49db31b3d582")
+		(property "Reference" "C6"
+			(at 142.24 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 142.24 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+			(at 139.3952 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C272878.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVVVQRVZXVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+			(at 138.43 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18788,7 +19670,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 234.95 73.66 0)
+			(at 138.43 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C272878"
+			(at 138.43 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18799,23 +19692,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "3535feed-5ff0-4525-8933-b98aa72626e4")
+			(uuid "2fd1faa0-25e9-4be4-8a9d-abf33a0d1655")
 		)
 		(pin "2"
-			(uuid "858755e5-e53b-48f7-8d54-b61d13efe434")
+			(uuid "38f52354-fcc8-45c7-a6e3-a37a1f6eeda7")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 250.19 113.03 90)
+		(lib_id "Device:R")
+		(at 256.54 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18824,31 +19717,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d7173dcb-db52-4fd2-9e9f-9c3c97f31c41")
-		(property "Reference" "D1"
-			(at 254 113.3474 90)
+		(uuid "d6bf7399-6c7b-400c-b295-9f5979d3595c")
+		(property "Reference" "Rfault2"
+			(at 259.08 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 259.08 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 254 115.8874 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 113.03 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 254.762 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18858,8 +19751,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 250.19 113.03 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7274188.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVlNQQFVaUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1RXVlVWWQkaCgg%3D"
+			(at 256.54 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18869,8 +19762,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 250.19 113.03 0)
+		(property "Description" "Resistor"
+			(at 256.54 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18880,8 +19773,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 250.19 113.03 0)
+		(property "LCSC" "C859110"
+			(at 256.54 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18892,129 +19785,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fa140559-1c05-497f-91dd-5e6741aa7b53")
+			(uuid "a7db75b4-579c-4854-b8e9-adceb71c6c7b")
 		)
 		(pin "1"
-			(uuid "f0969878-37d1-4b33-8f66-0154215e82b6")
+			(uuid "62554d34-4f82-4e70-bb07-aea91dbb08cb")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CANSAT_STM32_symbols:SMBJ18A_C151256")
-		(at 195.58 146.05 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ddb00809-4623-44d0-a021-772b4f301131")
-		(property "Reference" "D4"
-			(at 198.12 144.3999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ18A_C151256"
-			(at 190.5 140.462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SMB_L4.3-W3.6-LS5.3-RD"
-			(at 187.96 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Littelfuse_SMBJ18A_SMBJ18A_C151256.html"
-			(at 185.42 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 182.88 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SMBJ18A"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C151256"
-			(at 177.8 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d257c4e9-2a91-4b58-946c-8233d02ec172")
-		)
-		(pin "2"
-			(uuid "ca1215c5-6b76-4fa4-96ca-c3cf3629254b")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "D4")
+					(reference "Rfault2")
 					(unit 1)
 				)
 			)
@@ -19094,6 +19873,121 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CANSAT_STM32_symbols:TCC0402X7R104J500AT")
+		(at 222.25 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e00e7ab8-ac67-458a-b572-b25a6f02bdde")
+		(property "Reference" "C34"
+			(at 226.06 73.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 226.06 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 229.87 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5448844.pdf"
+			(at 232.41 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "CCTC(三环)"
+			(at 234.95 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TCC0402X7R104J500AT"
+			(at 237.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5448844"
+			(at 240.03 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "80142f1c-2871-4d7e-90ed-d47f0eb86fd0")
+		)
+		(pin "1"
+			(uuid "283d3ae8-f730-4618-b132-8cf7ee4696e8")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -19250,6 +20144,84 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e28b0d21-4361-44b0-9e3b-12791e2f96cf")
+		(property "Reference" "#PWR080"
+			(at 229.87 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55590636-276a-444f-be13-d758d4f01bbd")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -19508,8 +20480,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 195.58 151.13 0)
+		(lib_id "CANSAT_STM32_symbols:UCM1H101MCL1GS")
+		(at 208.28 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19518,9 +20490,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f11b8e3a-a2b8-4ced-88e6-acfec46fcb39")
-		(property "Reference" "#PWR027"
-			(at 195.58 157.48 0)
+		(uuid "f5402365-ddd7-43df-9150-4a174801b592")
+		(property "Reference" "C3"
+			(at 210.82 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 210.82 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+			(at 200.66 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19530,18 +20524,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 195.58 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 151.13 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C729685.pdf"
+			(at 198.12 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19551,8 +20535,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 195.58 151.13 0)
+		(property "Description" ""
+			(at 208.28 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19562,8 +20546,30 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 151.13 0)
+		(property "Manufacturer" "Nichicon(尼吉康)"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UCM1H101MCL1GS"
+			(at 193.04 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C729685"
+			(at 190.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19574,12 +20580,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c561bba1-3375-4d5c-b11b-88e39cc07933")
+			(uuid "640601e7-2960-4db3-8725-01b9b299d7b3")
+		)
+		(pin "2"
+			(uuid "1274997b-0c26-47e2-a08b-4f7e1766020b")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "#PWR027")
+					(reference "C3")
 					(unit 1)
 				)
 			)
