@@ -3330,7 +3330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 60.96 83.058 90)
 			(hide yes)
 			(show_name no)
@@ -3354,6 +3354,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 60.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C854481"
+			(at 60.96 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

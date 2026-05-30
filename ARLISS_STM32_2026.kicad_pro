@@ -475,7 +475,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "U9-12,R2-3,R6,R9-10,Q1,Q4,D1,D6,#PWR68,#PWR72-77,#PWR79-82,#PWR133,C3-6,C31-36,RIMODE2,JP1-3,RLED2-3,Rfault2,RIPROPI3",
+    "used_designators": "U13-15,L2,D4,#PWR23-25,#PWR27,#PWR29,#PWR32-33,#PWR36-37,#PWR40,#PWR48,#PWR95-107,#PWR112-117,#PWR119-120,#PWR134-137,R10,R16-17,C22,C37-40,CN1-2,SW1-3,TP1-3",
     "variants": []
   },
   "sheets": [

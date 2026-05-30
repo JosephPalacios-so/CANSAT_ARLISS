@@ -7386,6 +7386,221 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "UCM1H101MCL1GS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C729685.pdf"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nichicon(尼吉康)"
+			(at 0 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UCM1H101MCL1GS"
+			(at 0 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C729685"
+			(at 0 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Aluminum Electrolytic Capacitors - SMD"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "UCM1H101MCL1GS_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -0.51 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.29 1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.78 1.78) (xy -1.78 0.76)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.51 1.78) (xy -0.51 -1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.51 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.13 -1.75)
+				(mid 0.4201 0.0241)
+				(end 1.15 1.79)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "UUA1H100MCL1GS"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8815,115 +9030,125 @@
 		(embedded_fonts no)
 	)
 
-  (symbol "UCM1H101MCL1GS"
+  (symbol "SS-12M11G3"
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (property
       "Reference"
-      "C"
-      (at 0 5.08 0)
+      "SW"
+      (at 0 2.54 0)
       (effects (font (size 1.27 1.27) ))
     )
     (property
       "Value"
-      "UCM1H101MCL1GS"
-      (at 0 -5.08 0)
+      "SS-12M11G3"
+      (at 0 -7.62 0)
       (effects (font (size 1.27 1.27) ))
     )
     (property
       "Footprint"
-      "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
-      (at 0 -7.62 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "Datasheet"
-      "https://www.lcsc.com/datasheet/C729685.pdf"
+      "easyeda2kicad:SW-TH_XKB_SS-12M11XX"
       (at 0 -10.16 0)
       (hide yes)
       (effects (font (size 1.27 1.27) ))
     )
     (property
-      "Manufacturer"
-      "Nichicon(尼吉康)"
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C2879832.pdf"
       (at 0 -12.70 0)
       (hide yes)
       (effects (font (size 1.27 1.27) ))
     )
     (property
-      "MPN"
-      "UCM1H101MCL1GS"
+      "Manufacturer"
+      "XKB Connection(中国星坤)"
       (at 0 -15.24 0)
       (hide yes)
       (effects (font (size 1.27 1.27) ))
     )
     (property
-      "LCSC Part"
-      "C729685"
+      "MPN"
+      "SS-12M11G3"
       (at 0 -17.78 0)
       (hide yes)
       (effects (font (size 1.27 1.27) ))
     )
     (property
-      "ki_keywords"
-      "Aluminum Electrolytic Capacitors - SMD"
+      "LCSC Part"
+      "C2879832"
       (at 0 -20.32 0)
       (hide yes)
       (effects (font (size 1.27 1.27) ))
     )
-    (symbol "UCM1H101MCL1GS_0_1"
-      (arc
-        (start 1.15 1.79)
-        (mid 0.42 0.02)
-        (end 1.13 -1.75)
+    (property
+      "ki_keywords"
+      "Slide Switches"
+      (at 0 -22.86 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (symbol "SS-12M11G3_0_1"
+      (circle
+        (center 3.81 2.54)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle
+        (center 1.27 2.54)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle
+        (center -1.27 2.54)
+        (radius 0.38)
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy -0.51 1.78) (xy -0.51 -1.78)
+          (xy 3.81 -0.00) (xy 3.81 2.03)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy -2.54 -0.00) (xy -0.51 -0.00)
+          (xy 1.27 -0.00) (xy 1.27 2.03)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 0.51 -0.00) (xy 2.54 -0.00)
+          (xy -1.27 -0.00) (xy -1.27 2.03)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy -2.29 1.27) (xy -1.27 1.27)
+          (xy -1.27 3.05) (xy 1.27 3.05)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (polyline
-        (pts
-          (xy -1.78 1.78) (xy -1.78 0.76)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin input line
-        (at -5.08 -0.00 0)
+      (pin unspecified line
+        (at -1.27 -2.54 90)
         (length 2.54)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin input line
-        (at 5.08 -0.00 180)
+      (pin unspecified line
+        (at 3.81 -2.54 90)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 1.27 -2.54 90)
         (length 2.54)
         (name "2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
