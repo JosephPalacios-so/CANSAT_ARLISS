@@ -456,7 +456,7 @@
 					)
 				)
 			)
-			(property "Value" "SMBJ18A_C151256"
+			(property "Value" "1Kohm 100Mhz"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1282,7 +1282,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2109,7 +2109,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2363,7 +2363,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4272,7 +4272,7 @@
 		)
 	)
 	(image
-		(at 86.36 33.02)
+		(at 91.44 33.02)
 		(scale 0.632463)
 		(uuid "0a997731-ef7e-4e81-b32c-32e64f2394b1")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA3sAAAH9CAIAAAAs2fJYAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
@@ -8543,7 +8543,7 @@
 		)
 	)
 	(image
-		(at 60.96 154.94)
+		(at 60.96 156.21)
 		(scale 0.850636)
 		(uuid "33c59f0f-7bb8-4692-9244-06256a89bbf0")
 		(data "iVBORw0KGgoAAAANSUhEUgAABRkAAAE9CAYAAACP9GW1AAAABHNCSVQICAgIfAhkiAAAIABJREFU"

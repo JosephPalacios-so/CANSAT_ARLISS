@@ -892,6 +892,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MEDIR CORRIENTE CON vin+ vin-\nBUSCAR RESISTENCIA SHUNT\n\n"
+		(exclude_from_sim no)
+		(at 137.16 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6decb88-d60a-4d5a-a25b-c2f676998fcb")
+	)
 	(text_box "I2C Address: 0x41\n"
 		(exclude_from_sim no)
 		(at 163.83 92.5717 0)
