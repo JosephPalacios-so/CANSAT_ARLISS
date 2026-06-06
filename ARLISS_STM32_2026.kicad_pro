@@ -691,7 +691,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "SW3,R11",
+    "used_designators": "SW3,R11,U16",
     "variants": []
   },
   "sheets": [

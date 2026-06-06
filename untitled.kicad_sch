@@ -6266,9 +6266,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SW-TH_XKB_SS-12M11XX"
+		(property "Footprint" "ARLISS-footprints:SW-TH_XKB_SS-12M11XX"
 			(at 74.93 74.93 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7780,9 +7779,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SW-TH_XKB_SS-12M11XX"
+		(property "Footprint" "ARLISS-footprints:SW-TH_XKB_SS-12M11XX"
 			(at 74.93 43.18 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
