@@ -2554,6 +2554,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2810,7 +2811,7 @@
 			(uuid "cbc8706d-ac90-4ba5-8f6c-c7dcba3b06a1")
 		)
 		(embedded_fonts no)
-		(model "easyeda2kicad.3dshapes/SW-TH_XKB_SS-12M11XX.wrl"
+		(model "${KIPRJMOD}/libs/easyeda2kicad.3dshapes/SW-TH_XKB_SS-12M11XX.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4640,6 +4641,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4669,7 +4671,6 @@
 				)
 			)
 		)
-		(path "/8549a18f-8dc0-4c64-a4df-732ef1c8a382/ecb44e6e-9f99-47a0-8d52-c75f859613b1")
 		(sheetname "/Alimentacion/")
 		(sheetfile "untitled.kicad_sch")
 		(units
@@ -5009,7 +5010,7 @@
 			(uuid "40737034-b56c-4f6b-8f9b-5023aaa910c7")
 		)
 		(embedded_fonts no)
-		(model "easyeda2kicad.3dshapes/SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1.wrl"
+		(model "${KIPRJMOD}/libs/easyeda2kicad.3dshapes/SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5590,6 +5591,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5846,7 +5848,7 @@
 			(uuid "d443b02d-ae4a-45bd-9848-e0dd0c7ea519")
 		)
 		(embedded_fonts no)
-		(model "easyeda2kicad.3dshapes/SW-TH_XKB_SS-12M11XX.wrl"
+		(model "${KIPRJMOD}/libs/easyeda2kicad.3dshapes/SW-TH_XKB_SS-12M11XX.step"
 			(offset
 				(xyz 0 0 0)
 			)

@@ -793,24 +793,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
+			(property "Reference" "C4"
+				(at -1.2701 2.54 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "100uF"
-				(at 0 -5.08 0)
+				(at 1.2699 2.54 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
@@ -963,7 +965,9 @@
 						(type none)
 					)
 				)
-				(pin input line
+			)
+			(symbol "UCM1H101MCL1GS_1_1"
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -981,7 +985,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1988,6 +1992,177 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "UCM1H101MCL1GS_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C3"
+				(at -1.2638 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100uF"
+				(at 1.2762 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C729685.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Nichicon(尼吉康)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "UCM1H101MCL1GS"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C729685"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Aluminum Electrolytic Capacitors - SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "UCM1H101MCL1GS_1_0_1"
+				(polyline
+					(pts
+						(xy -0.508 1.524) (xy -0.508 -1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.524) (xy 0.508 -1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "UCM1H101MCL1GS_1_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2591,12 +2766,6 @@
 		(uuid "02e6630c-0d8f-4a99-bd07-d3aba2a1a02d")
 	)
 	(junction
-		(at 233.68 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0381b62b-5549-4554-827f-554f412e4c5e")
-	)
-	(junction
 		(at 248.92 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2643,6 +2812,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9563d4ae-8dcc-4c49-944e-f72997f6dda2")
+	)
+	(junction
+		(at 233.68 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeb5ade4-4a99-4ba7-b418-0075df321592")
 	)
 	(junction
 		(at 138.43 118.11)
@@ -2788,16 +2963,6 @@
 			(type default)
 		)
 		(uuid "1f8dabad-a682-462e-ad37-c1d5ae59aa0d")
-	)
-	(wire
-		(pts
-			(xy 233.68 63.5) (xy 247.65 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "240e555a-4750-4466-b15d-7fa1252d6785")
 	)
 	(wire
 		(pts
@@ -3001,6 +3166,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 63.5) (xy 247.65 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47bd6acf-521b-4642-86f1-908b4a45079f")
+	)
+	(wire
+		(pts
 			(xy 116.84 171.45) (xy 119.38 171.45)
 		)
 		(stroke
@@ -3151,6 +3326,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 63.5) (xy 233.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7229ed60-de98-4eeb-8275-2b91a2866ca0")
+	)
+	(wire
+		(pts
 			(xy 148.59 113.03) (xy 153.67 113.03)
 		)
 		(stroke
@@ -3198,16 +3383,6 @@
 			(type default)
 		)
 		(uuid "7879c36f-84fa-4344-9ad9-c5d88be90d57")
-	)
-	(wire
-		(pts
-			(xy 224.79 63.5) (xy 233.68 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "793c19c6-23fb-4367-a340-6d20b9a18d9a")
 	)
 	(wire
 		(pts
@@ -3268,6 +3443,16 @@
 			(type default)
 		)
 		(uuid "938d4fb3-535c-4cf8-9c3f-2c45d218a7e0")
+	)
+	(wire
+		(pts
+			(xy 233.68 73.66) (xy 233.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b6334b-ddb6-40a0-b8f2-605318794690")
 	)
 	(wire
 		(pts
@@ -3522,16 +3707,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 67.31) (xy 233.68 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca667caf-3a58-4a55-8b52-bb634ff86ac3")
-	)
-	(wire
-		(pts
 			(xy 247.65 66.04) (xy 247.65 63.5)
 		)
 		(stroke
@@ -3579,6 +3754,16 @@
 			(type default)
 		)
 		(uuid "d5f95d76-731f-4836-bd7f-5c2f0ce4e953")
+	)
+	(wire
+		(pts
+			(xy 224.79 63.5) (xy 233.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de233a68-963e-485a-b01f-7d9ed7792081")
 	)
 	(wire
 		(pts
@@ -3680,16 +3865,6 @@
 			(type default)
 		)
 		(uuid "fce24637-7b1f-4b9e-8a01-32ed35c7d508")
-	)
-	(wire
-		(pts
-			(xy 233.68 77.47) (xy 233.68 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd04918a-d1f9-46e1-af04-8318b2500330")
 	)
 	(wire
 		(pts
@@ -19437,6 +19612,122 @@
 		)
 	)
 	(symbol
+		(lib_name "UCM1H101MCL1GS_1")
+		(lib_id "CANSAT_STM32_symbols:UCM1H101MCL1GS")
+		(at 233.68 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e108371d-ed2b-4ecf-aaa6-e31dea6d6238")
+		(property "Reference" "C3"
+			(at 236.22 69.8562 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 236.22 72.3962 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+			(at 226.06 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C729685.pdf"
+			(at 223.52 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nichicon(尼吉康)"
+			(at 220.98 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UCM1H101MCL1GS"
+			(at 218.44 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C729685"
+			(at 215.9 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f9c9d213-a008-4d7d-bd4d-e6f60685268d")
+		)
+		(pin "1"
+			(uuid "eb1c6893-aeb3-4a12-b63d-767110011ecf")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 257.81 116.84 0)
 		(unit 1)
@@ -19838,121 +20129,6 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CANSAT_STM32_symbols:UCM1H101MCL1GS")
-		(at 233.68 72.39 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5402365-ddd7-43df-9150-4a174801b592")
-		(property "Reference" "C3"
-			(at 236.22 71.1199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 236.22 73.6599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
-			(at 226.06 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C729685.pdf"
-			(at 223.52 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nichicon(尼吉康)"
-			(at 220.98 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "UCM1H101MCL1GS"
-			(at 218.44 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C729685"
-			(at 215.9 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "640601e7-2960-4db3-8725-01b9b299d7b3")
-		)
-		(pin "2"
-			(uuid "1274997b-0c26-47e2-a08b-4f7e1766020b")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "C3")
 					(unit 1)
 				)
 			)
