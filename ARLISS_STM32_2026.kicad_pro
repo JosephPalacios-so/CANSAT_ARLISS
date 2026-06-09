@@ -797,7 +797,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "SW3,R11,U14,U16,C3-4,C7,C9,+VIN1-3,#PWR107-108,#PWR118",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

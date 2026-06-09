@@ -425,7 +425,7 @@
 				)
 			)
 			(symbol "4754_1_0"
-				(pin output line
+				(pin power_out line
 					(at -15.24 12.7 0)
 					(length 5.08)
 					(name "VIN"
