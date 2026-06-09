@@ -8389,8 +8389,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "112ec189-9302-4ace-abfd-7f64a5c4a07f")
-		(property "Reference" "C26"
+		(uuid "2fad2bd3-9da6-4217-bd9c-272103a1520b")
+		(property "Reference" "C7"
 			(at 132.08 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8412,7 +8412,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 135.89 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8479,15 +8479,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ba1cc4c-145a-4ef5-bfa0-2c3be9ec4f2b")
+			(uuid "4f0b801a-acdf-4ca2-a1e1-77b95557abf4")
 		)
 		(pin "2"
-			(uuid "3d847a50-1712-43ef-9c14-e4f860f66c2f")
+			(uuid "5f75a10d-e7be-4f55-9ff4-108e5077ca87")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/5dc414a7-f6ea-4307-9bff-662079fd3375"
-					(reference "C26")
+					(reference "C7")
 					(unit 1)
 				)
 			)

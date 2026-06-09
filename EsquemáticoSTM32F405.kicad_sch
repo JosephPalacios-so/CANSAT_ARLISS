@@ -18229,7 +18229,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:FC-12M_L2.0-W1.2"
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering"
 			(at 273.05 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -20444,7 +20444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 363.22 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -21827,7 +21827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 273.05 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -22672,8 +22672,9 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 349.25 218.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
