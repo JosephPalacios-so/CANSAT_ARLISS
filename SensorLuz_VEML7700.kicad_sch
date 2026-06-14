@@ -1446,6 +1446,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 76.2) (xy 123.19 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338d287e-b19e-4112-ab04-793e3e2a1427")
+	)
+	(wire
+		(pts
 			(xy 74.93 96.52) (xy 74.93 99.06)
 		)
 		(stroke
@@ -1533,6 +1543,16 @@
 			(type default)
 		)
 		(uuid "f7e0b76c-4932-43c3-8ae9-146aed9368ce")
+	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e9308e-8085-4964-a3d4-977e9a07516f")
 	)
 	(wire
 		(pts
@@ -2945,6 +2965,36 @@
 			"AZQgi4iIiIiIiADw/wPATaKPjdZgAAAAAElFTkSuQmCC"
 		)
 	)
+	(label "VDD_LUZ"
+		(at 96.52 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a549a36-3d55-4ee3-a882-fa5d32bd72c8")
+	)
+	(label "VDD_LUZ"
+		(at 167.64 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bf53369-9ce3-4da4-acbc-76c053d5a68d")
+	)
+	(label "VDD_LUZ"
+		(at 113.03 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abd20422-f0e8-40e3-a406-a1fe7362e1d2")
+	)
 	(global_label "I2C2_SDA"
 		(shape input)
 		(at 123.19 86.36 180)
@@ -2971,7 +3021,7 @@
 	)
 	(global_label "I2C2_SCL"
 		(shape input)
-		(at 123.19 78.74 180)
+		(at 123.19 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2981,7 +3031,7 @@
 		)
 		(uuid "6487b912-9370-4a25-84b8-ed0d2429e839")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.4358 78.74 0)
+			(at 111.4358 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2992,39 +3042,6 @@
 				(justify right)
 			)
 		)
-	)
-	(hierarchical_label "VDD_LUZ"
-		(shape input)
-		(at 167.64 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "79e0d31a-45bc-4306-b61b-d55ca84f4ddc")
-	)
-	(hierarchical_label "VDD_LUZ"
-		(shape input)
-		(at 123.19 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eae7e3e2-c5cd-40a0-b48f-17531afb5a70")
-	)
-	(hierarchical_label "VDD_LUZ"
-		(shape input)
-		(at 96.52 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fdb90c00-c533-4989-8efa-9eaec74081f3")
 	)
 	(symbol
 		(lib_id "power:GND")

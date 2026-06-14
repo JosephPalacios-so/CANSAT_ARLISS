@@ -6729,7 +6729,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 138.43) (xy 359.41 138.43)
+			(xy 355.6 138.43) (xy 359.41 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7229,7 +7229,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 138.43) (xy 353.06 138.43)
+			(xy 334.01 138.43) (xy 350.52 138.43)
 		)
 		(stroke
 			(width 0)
@@ -17498,6 +17498,16 @@
 		)
 		(uuid "c2bb02a8-f6d8-4a38-b5a7-e06d83b8678d")
 	)
+	(label "NRST"
+		(at 163.83 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edfcd34f-c1d3-4eda-b693-156cc1b9a894")
+	)
 	(global_label "SPI2_MOSI"
 		(shape input)
 		(at 334.01 173.99 0)
@@ -17546,7 +17556,7 @@
 			)
 		)
 	)
-	(global_label "VREF{slash}DAC2"
+	(global_label "nFAULT2"
 		(shape input)
 		(at 283.21 184.15 180)
 		(fields_autoplaced yes)
@@ -17558,7 +17568,7 @@
 		)
 		(uuid "08eda201-5a36-4fea-ad15-9d18a13f973f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.46 184.15 0)
+			(at 272.3629 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17786,7 +17796,7 @@
 			)
 		)
 	)
-	(global_label "VREF{slash}DAC1"
+	(global_label "nFAULT1"
 		(shape input)
 		(at 283.21 186.69 180)
 		(fields_autoplaced yes)
@@ -17798,7 +17808,7 @@
 		)
 		(uuid "3ef6f214-4b61-453c-a5d3-5de6bb1d7ac4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.46 186.69 0)
+			(at 272.3629 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18167,28 +18177,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "NRST"
-		(shape input)
-		(at 163.83 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d8361607-986d-4d1a-a848-57161ade70b6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 	)
@@ -18835,7 +18823,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 355.6 138.43 270)
+		(at 353.06 138.43 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18845,7 +18833,7 @@
 		(dnp no)
 		(uuid "318bddb4-be46-412e-8382-9efa635c2835")
 		(property "Reference" "R8"
-			(at 355.6 136.525 90)
+			(at 353.06 136.525 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18855,7 +18843,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 355.6 140.335 90)
+			(at 353.06 140.335 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18865,7 +18853,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 355.6 138.43 0)
+			(at 353.06 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18876,7 +18864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 355.6 138.43 0)
+			(at 353.06 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18887,7 +18875,8 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 355.6 138.43 0)
+			(at 353.06 138.43 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18897,7 +18886,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
-			(at 355.6 138.43 0)
+			(at 353.06 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -5,41 +5,9 @@
 	(uuid "9719ea46-14c4-4409-9c57-49dd5454c03f")
 	(paper "A4")
 	(lib_symbols)
-	(no_connect
-		(at 205.74 58.42)
-		(uuid "13731ae7-3b4c-4cd3-9a89-d8f2e8ec5c5f")
-	)
-	(no_connect
-		(at 175.26 58.42)
-		(uuid "7b7bcccf-20ab-4d44-94bd-5ee77c5f62ff")
-	)
-	(no_connect
-		(at 196.85 58.42)
-		(uuid "8eb41ef3-e945-4b04-bc99-870df296ea65")
-	)
-	(no_connect
-		(at 201.93 58.42)
-		(uuid "939da211-6db2-435b-a532-a7cb1a69c05c")
-	)
-	(no_connect
-		(at 194.31 34.29)
-		(uuid "a5b943f4-5cfa-4700-a8fe-0993db6f994e")
-	)
-	(no_connect
-		(at 114.3 81.28)
-		(uuid "f36cc3b1-e1c1-4484-925c-9d20fe4b5c35")
-	)
-	(no_connect
-		(at 190.5 34.29)
-		(uuid "f9966e8a-b92a-4412-ab2f-ff4d6bd37899")
-	)
-	(no_connect
-		(at 209.55 58.42)
-		(uuid "fd0ee584-a7d6-422d-a99f-85d5b7cd74d7")
-	)
 	(sheet
-		(at 125.73 40.64)
-		(size 20.32 13.97)
+		(at 118.11 36.83)
+		(size 26.67 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -54,7 +22,7 @@
 		)
 		(uuid "243e1b39-32df-463e-8f3d-bc06fe39ea80")
 		(property "Sheetname" "IMU BNO085"
-			(at 125.73 39.9284 0)
+			(at 118.11 36.1184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -65,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
-			(at 125.73 55.1946 0)
+			(at 118.11 59.0046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -119,76 +87,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "IMODE2" input
-			(at 190.5 34.29 90)
-			(uuid "bc6cbd85-102b-452f-a1ed-777bb5795a61")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VCP2" input
-			(at 194.31 34.29 90)
-			(uuid "07e75bfc-a350-4ca0-8d35-a70256b0282f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IMODE1" input
-			(at 175.26 58.42 270)
-			(uuid "d71a7537-4f53-443d-b9bf-64934e3a914d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "nFAULT" input
-			(at 196.85 58.42 270)
-			(uuid "6f0389f8-bd28-412f-bac8-ee8c89ff8c95")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "nFAULT1" input
-			(at 201.93 58.42 270)
-			(uuid "27b2d348-eb71-457a-af54-5a2e336062b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "nFAULT2" input
-			(at 205.74 58.42 270)
-			(uuid "31e53029-0f32-44c6-a27e-b297a510e882")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VCP1" input
-			(at 209.55 58.42 270)
-			(uuid "fe7db28e-b5d0-4237-8795-bfb63de55b66")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
@@ -419,16 +317,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "VDD_LUZ" input
-			(at 114.3 81.28 180)
-			(uuid "3f159e36-19bb-43bb-9c0a-76b56a7ef981")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
