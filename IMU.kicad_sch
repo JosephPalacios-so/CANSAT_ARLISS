@@ -770,6 +770,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 110.49) (xy 149.86 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cdf56a-ecc8-4ea3-9da0-74c13272057c")
+	)
+	(wire
+		(pts
 			(xy 180.34 120.65) (xy 181.61 120.65)
 		)
 		(stroke
@@ -5155,7 +5165,7 @@
 		)
 	)
 	(image
-		(at 241.3 40.64)
+		(at 167.64 69.85)
 		(uuid "d6ee5cc1-946d-4a83-9e22-234dd45b2e1e")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAf0AAAE7CAYAAADXfVghAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3Xd8VFX6P/DP9EnvlVQSCCEkEBIgoUOoErCholh++NX1q+u6rquo2HBVQBd3X7ZVV0TFguJX"
@@ -5569,7 +5579,7 @@
 	)
 	(global_label "SPI1_NSS"
 		(shape input)
-		(at 149.86 110.49 180)
+		(at 148.59 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5579,7 +5589,7 @@
 		)
 		(uuid "1b5c8eb4-e2c3-4967-a3d6-79c6813628b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.8639 110.49 0)
+			(at 136.5939 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
