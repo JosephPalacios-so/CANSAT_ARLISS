@@ -15618,7 +15618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SMB_L4.3-W3.6-LS5.3-RD"
+		(property "Footprint" "ARLISS-footprints:SMB_L4.3-W3.6-LS5.3-RD"
 			(at 217.17 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -15907,7 +15907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL-EP"
+		(property "Footprint" "ARLISS-footprints:HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL-EP"
 			(at 167.64 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -16526,7 +16526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED0603-FD"
+		(property "Footprint" "ARLISS-footprints:LED0603-FD"
 			(at 214.63 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16833,7 +16833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "ARLISS-footprints:C0402"
 			(at 267.97 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -17907,7 +17907,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "ARLISS-footprints:C0402"
 			(at 265.43 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -18348,7 +18348,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "ARLISS-footprints:C0402"
 			(at 252.73 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -20030,7 +20030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "ARLISS-footprints:C0402"
 			(at 255.27 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -20822,7 +20822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL-EP"
+		(property "Footprint" "ARLISS-footprints:HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL-EP"
 			(at 167.64 130.81 0)
 			(hide yes)
 			(show_name no)

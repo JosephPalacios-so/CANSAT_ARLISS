@@ -8024,7 +8024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:TO-263-5_L10.2-W9.2-P1.70-TL"
+		(property "Footprint" "ARLISS-footprints:TO-263-5_L10.2-W9.2-P1.70-TL"
 			(at 148.59 85.09 0)
 			(hide yes)
 			(show_name no)

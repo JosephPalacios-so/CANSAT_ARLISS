@@ -3138,7 +3138,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "ARLISS-footprints:C0402"
 			(at 82.55 91.44 0)
 			(hide yes)
 			(show_name no)

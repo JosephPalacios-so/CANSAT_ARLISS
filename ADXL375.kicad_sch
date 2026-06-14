@@ -8605,7 +8605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "ARLISS-footprints:C0402"
 			(at 213.36 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8796,7 +8796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LGA-16_L3.3-W3.0-P0.50-TL"
+		(property "Footprint" "ARLISS-footprints:LGA-16_L3.3-W3.0-P0.50-TL"
 			(at 171.45 114.3 0)
 			(hide yes)
 			(show_name no)
