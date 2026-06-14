@@ -7447,7 +7447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-TH_BD10.0-P5.00-D1.0-FD"
+		(property "Footprint" "ARLISS-footprints:CAP-TH_BD10.0-P5.00-D1.0-FD"
 			(at 189.23 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7834,7 +7834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_XT30PW-M"
+		(property "Footprint" "ARLISS-footprints:CONN-TH_XT30PW-M"
 			(at 53.34 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8024,7 +8024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:TO-263-5_L10.2-W9.2-P1.70-TL"
+		(property "Footprint" "ARLISS-footprints:TO-263-5_L10.2-W9.2-P1.70-TL"
 			(at 148.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8308,7 +8308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_XT30PW-M"
+		(property "Footprint" "ARLISS-footprints:CONN-TH_XT30PW-M"
 			(at 53.34 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8524,7 +8524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-TH_BD8.0-P3.50-D0.6-FD"
+		(property "Footprint" "ARLISS-footprints:CAP-TH_BD8.0-P3.50-D0.6-FD"
 			(at 129.54 76.2 0)
 			(hide yes)
 			(show_name no)

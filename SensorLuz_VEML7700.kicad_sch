@@ -1545,7 +1545,7 @@
 		(uuid "fb5f8735-6052-4d04-82f7-c189b38cf32b")
 	)
 	(image
-		(at 78.74 168.91)
+		(at 85.09 162.56)
 		(uuid "1ac0544a-8f6c-4b87-b448-329b3f3bcfa1")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA28AAABHCAYAAACQ2H86AAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzsnXdYVMfXx7/33t0FAekISBOVZsWKPYqxIIiAiTX2HmNMNGqMPdgSNbHGaPzZGxp7L2AjdsWK"
@@ -1902,7 +1902,7 @@
 		)
 	)
 	(image
-		(at 78.74 140.97)
+		(at 85.09 134.62)
 		(uuid "5a672969-647b-4161-afb8-251543faa2e9")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA8gAAAHoCAYAAACVYcYdAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3Xd0FFUfxvHv7ob0BBIIhBIg9A4CgggI0kW6NAFFpCgtKogFsCEKiooir4qodER6RJqANJEO"
@@ -3138,7 +3138,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "ARLISS-footprints:C0402"
 			(at 82.55 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3501,7 +3501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L6.8-W2.4_VEML7700-TR"
+		(property "Footprint" "ARLISS-footprints:LED-SMD_4P-L6.8-W2.4_VEML7700-TR"
 			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3622,7 +3622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.3"
+		(property "Footprint" "ARLISS-footprints:CAP-SMD_BD6.3-L6.6-W6.6-LS7.3"
 			(at 83.82 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3737,7 +3737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3819,7 +3819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED0603-FD"
+		(property "Footprint" "ARLISS-footprints:LED0603-FD"
 			(at 160.02 83.82 0)
 			(hide yes)
 			(show_name no)

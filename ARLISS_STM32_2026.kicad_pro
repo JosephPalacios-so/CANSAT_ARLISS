@@ -797,7 +797,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C7,R12,U16",
     "variants": []
   },
   "sheets": [
@@ -815,7 +815,7 @@
     ],
     [
       "4b4c1a4f-7753-466f-b706-7dda6e0dceb5",
-      "DriverDRV8874"
+      "Motor control"
     ],
     [
       "9e299f07-4887-409a-8623-587b30453872",

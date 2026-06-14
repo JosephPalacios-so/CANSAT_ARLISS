@@ -5452,7 +5452,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0603"
+		(property "Footprint" "ARLISS-footprints:R0603"
 			(at 142.24 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5723,7 +5723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ARLISS-footprints:R0603"
 			(at 179.832 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -5734,7 +5734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5552302.pdf?spm=wm.sxq.pdf.fd___wm.fly.bg.1.cbh&lcsc_vid=FVBZXlJVElFWAVdTTgAPVAcHR1hXAlIFT1cMUAFWQVYxVlNeRlVfVFdeR1NaXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
 			(at 181.61 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5746,6 +5746,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5552302"
 			(at 181.61 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6039,7 +6050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "ARLISS-footprints:C0402"
 			(at 210.82 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6232,7 +6243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0603"
+		(property "Footprint" "ARLISS-footprints:R0603"
 			(at 151.13 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6345,7 +6356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LGA-8_DPS310XTSA1"
+		(property "Footprint" "ARLISS-footprints:LGA-8_DPS310XTSA1"
 			(at 166.37 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6635,7 +6646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "ARLISS-footprints:C0402"
 			(at 191.77 81.28 0)
 			(hide yes)
 			(show_name no)
