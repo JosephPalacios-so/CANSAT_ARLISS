@@ -5723,7 +5723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ARLISS-footprints:R0603"
 			(at 179.832 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -5734,7 +5734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5552302.pdf?spm=wm.sxq.pdf.fd___wm.fly.bg.1.cbh&lcsc_vid=FVBZXlJVElFWAVdTTgAPVAcHR1hXAlIFT1cMUAFWQVYxVlNeRlVfVFdeR1NaXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
 			(at 181.61 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5746,6 +5746,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 181.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5552302"
 			(at 181.61 105.41 0)
 			(hide yes)
 			(show_name no)
