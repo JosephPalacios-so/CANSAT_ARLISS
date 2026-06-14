@@ -295,26 +295,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R5"
-				(at 0.762 -2.032 90)
+			(property "Reference" "R"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Value" "4.7K"
-				(at -1.524 -1.524 90)
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" "easyeda2kicad:R0603"
@@ -406,9 +404,7 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "RC0603FR-074K7L_1_1"
-				(pin passive line
+				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -426,7 +422,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -886,7 +882,7 @@
 				)
 			)
 			(symbol "RC0603FR-074K7L_1_1_1"
-				(pin passive line
+				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -904,7 +900,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"

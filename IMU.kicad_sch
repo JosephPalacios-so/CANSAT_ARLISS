@@ -14,26 +14,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -10.16 16.002 0)
+			(property "Reference" "U3"
+				(at 0 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "4754"
-				(at -10.16 -17.78 0)
+				(at 0 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "4754:MODULE_4754"
@@ -227,24 +225,6 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -15.24 12.7 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "JP1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 15.24 12.7 180)
 					(length 5.08)
@@ -436,6 +416,26 @@
 						)
 					)
 					(number "JP2_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4754_1_0"
+				(pin power_out line
+					(at -15.24 12.7 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -730,6 +730,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 95.25) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da6d3d7-b8f0-440a-b52c-4edb79593dbb")
+	)
+	(wire
+		(pts
 			(xy 186.69 100.33) (xy 186.69 102.87)
 		)
 		(stroke
@@ -787,16 +797,6 @@
 			(type default)
 		)
 		(uuid "d2e8f8f9-55d9-44b7-82b6-46b1fc694632")
-	)
-	(wire
-		(pts
-			(xy 143.51 95.25) (xy 149.86 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e660f0da-f803-46cf-b882-0dd771561660")
 	)
 	(wire
 		(pts
