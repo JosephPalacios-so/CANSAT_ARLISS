@@ -3501,7 +3501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L6.8-W2.4_VEML7700-TR"
+		(property "Footprint" "ARLISS-footprints:LED-SMD_4P-L6.8-W2.4_VEML7700-TR"
 			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3622,7 +3622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.3"
+		(property "Footprint" "ARLISS-footprints:CAP-SMD_BD6.3-L6.6-W6.6-LS7.3"
 			(at 83.82 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3819,7 +3819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED0603-FD"
+		(property "Footprint" "ARLISS-footprints:LED0603-FD"
 			(at 160.02 83.82 0)
 			(hide yes)
 			(show_name no)

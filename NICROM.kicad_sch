@@ -3375,7 +3375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED0603-FD"
+		(property "Footprint" "ARLISS-footprints:LED0603-FD"
 			(at 96.52 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3583,7 +3583,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0603"
+		(property "Footprint" "ARLISS-footprints:R0603"
 			(at 130.81 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3698,7 +3698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-T"
+		(property "Footprint" "ARLISS-footprints:TO-220-3_L10.0-W4.5-P2.54-T"
 			(at 135.89 111.76 0)
 			(hide yes)
 			(show_name no)

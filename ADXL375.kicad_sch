@@ -9029,7 +9029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:L0402"
+		(property "Footprint" "ARLISS-footprints:L0402"
 			(at 228.6 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9300,7 +9300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_L3.5-W2.8-R-RD"
+		(property "Footprint" "ARLISS-footprints:CAP-SMD_L3.5-W2.8-R-RD"
 			(at 226.06 101.6 0)
 			(hide yes)
 			(show_name no)

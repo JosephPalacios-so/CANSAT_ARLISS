@@ -16332,7 +16332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED0603-FD"
+		(property "Footprint" "ARLISS-footprints:LED0603-FD"
 			(at 231.14 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -16640,7 +16640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SMB_L4.3-W3.6-LS5.3-RD"
+		(property "Footprint" "ARLISS-footprints:SMB_L4.3-W3.6-LS5.3-RD"
 			(at 214.63 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -19214,7 +19214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+		(property "Footprint" "ARLISS-footprints:CAP-SMD_BD6.3-L6.6-W6.6-FD"
 			(at 220.98 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20630,7 +20630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-FD"
+		(property "Footprint" "ARLISS-footprints:CAP-SMD_BD6.3-L6.6-W6.6-FD"
 			(at 226.06 80.01 0)
 			(hide yes)
 			(show_name no)

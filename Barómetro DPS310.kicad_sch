@@ -5452,7 +5452,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0603"
+		(property "Footprint" "ARLISS-footprints:R0603"
 			(at 142.24 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6232,7 +6232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0603"
+		(property "Footprint" "ARLISS-footprints:R0603"
 			(at 151.13 87.63 0)
 			(hide yes)
 			(show_name no)
