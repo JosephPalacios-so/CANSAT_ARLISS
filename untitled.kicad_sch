@@ -3100,16 +3100,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 95.25) (xy 132.08 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "001aa3fd-474a-4e50-8f4c-68f0171c06e0")
-	)
-	(wire
-		(pts
 			(xy 180.34 83.82) (xy 189.23 83.82)
 		)
 		(stroke
@@ -3197,16 +3187,6 @@
 			(type default)
 		)
 		(uuid "2ea9b41f-843d-44e9-a57e-d96cbb784941")
-	)
-	(wire
-		(pts
-			(xy 133.35 95.25) (xy 132.08 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31540e82-d8c6-4c88-8d39-f122ae83b912")
 	)
 	(wire
 		(pts
@@ -3637,16 +3617,6 @@
 			(type default)
 		)
 		(uuid "c33023c2-aa66-4e77-93b6-a76fc9ca7034")
-	)
-	(wire
-		(pts
-			(xy 133.35 93.98) (xy 133.35 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3b9cee1-dd41-41dd-ac59-db6329b48cd7")
 	)
 	(wire
 		(pts
@@ -6484,84 +6454,6 @@
 			(justify left bottom)
 		)
 		(uuid "f9b54de0-d029-48bd-80d9-741cef84cc0b")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 132.08 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "106cf209-9973-436e-a21c-2b07558b1145")
-		(property "Reference" "#PWR036"
-			(at 132.08 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1981153f-fe08-4836-90c1-ded3efb3900f")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/8549a18f-8dc0-4c64-a4df-732ef1c8a382"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+BATT")

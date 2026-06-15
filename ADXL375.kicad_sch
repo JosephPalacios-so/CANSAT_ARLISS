@@ -641,7 +641,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:CAP-SMD_L3.5-W2.8-R-RD"
+			(property "Footprint" "ARLISS-footprints:CAP-SMD_L3.5-W2.8-R-RD"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -791,24 +791,6 @@
 						(type none)
 					)
 				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "TAJB105K035RNJ_1_1"
 				(pin passive line
@@ -822,6 +804,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1274,16 +1274,16 @@
 		(uuid "30d2fb4d-71a8-496d-b3fe-896416c45c64")
 	)
 	(junction
-		(at 218.44 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33bb1a1f-23e0-4d3e-81e3-83b7f91b7478")
-	)
-	(junction
 		(at 193.04 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80750ae7-c91e-42a2-ae31-b9e2c2560674")
+	)
+	(junction
+		(at 218.44 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6b3eda3-f64c-4272-8728-8b4546f9ec3b")
 	)
 	(junction
 		(at 193.04 88.9)

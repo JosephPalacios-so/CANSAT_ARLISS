@@ -243,24 +243,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 -12.7 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "JP1_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional clock
 					(at -15.24 -7.62 0)
 					(length 5.08)
@@ -436,6 +418,24 @@
 						)
 					)
 					(number "JP1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_3"
 						(effects
 							(font
 								(size 1.016 1.016)
