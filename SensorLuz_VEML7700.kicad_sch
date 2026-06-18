@@ -3707,10 +3707,6 @@
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/55efcca8-1297-47b0-ad35-b3f1b6f19299"
-					(reference "C32")
-					(unit 1)
-				)
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/90e9a371-b783-4b2a-a8c2-544713e1ebd2"
 					(reference "C32")
 					(unit 1)
