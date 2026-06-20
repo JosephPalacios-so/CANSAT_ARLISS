@@ -6628,7 +6628,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ARLISS-footprints:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 92.71 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6743,7 +6743,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ARLISS-footprints:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 161.29 92.71 0)
 			(hide yes)
 			(show_name no)

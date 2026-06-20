@@ -3149,7 +3149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ARLISS-footprints:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 128.27 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3808,7 +3808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd5a0694-0fcc-4c93-bca2-484a798ed615")
-		(property "Reference" "U10"
+		(property "Reference" "I3"
 			(at 172.72 83.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3905,7 +3905,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/90e9a371-b783-4b2a-a8c2-544713e1ebd2"
-					(reference "U10")
+					(reference "I3")
 					(unit 1)
 				)
 			)

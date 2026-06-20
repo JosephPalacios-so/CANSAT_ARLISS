@@ -3574,6 +3574,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 171.45) (xy 119.38 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24016fea-15d4-4199-8b9d-536dcaf82d8f")
+	)
+	(wire
+		(pts
 			(xy 132.08 45.72) (xy 132.08 49.53)
 		)
 		(stroke
@@ -3661,16 +3671,6 @@
 			(type default)
 		)
 		(uuid "2d46f9a5-d446-40aa-ad9c-fb99a670fff4")
-	)
-	(wire
-		(pts
-			(xy 153.67 176.53) (xy 156.21 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e8efc7d-4d21-4545-b838-3c4d516942a4")
 	)
 	(wire
 		(pts
@@ -3834,16 +3834,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 171.45) (xy 119.38 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4860276e-63e6-4d9e-acf2-20044ecc886c")
-	)
-	(wire
-		(pts
 			(xy 238.76 102.87) (xy 238.76 106.68)
 		)
 		(stroke
@@ -3961,16 +3951,6 @@
 			(type default)
 		)
 		(uuid "6a8c210c-2121-4c85-bf91-f96bf5ab31a9")
-	)
-	(wire
-		(pts
-			(xy 153.67 173.99) (xy 156.21 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aaab69e-e513-4d52-8424-665e0944ec1b")
 	)
 	(wire
 		(pts
@@ -4174,16 +4154,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 171.45) (xy 156.21 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e776dc3-787c-4c11-a3ed-d6cb3c1b0075")
-	)
-	(wire
-		(pts
 			(xy 128.27 128.27) (xy 128.27 130.81)
 		)
 		(stroke
@@ -4302,16 +4272,6 @@
 		)
 		(uuid "af142284-6f0d-4d54-816e-ed9c0f34de2d")
 	)
-	(wire
-		(pts
-			(xy 116.84 173.99) (xy 119.38 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a30aeb-ee4f-4eeb-a0ca-6d25a1348d23")
-	)
 	(polyline
 		(pts
 			(xy 11.43 147.32) (xy 12.7 147.32)
@@ -4324,7 +4284,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 168.91) (xy 119.38 168.91)
+			(xy 113.03 168.91) (xy 119.38 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4414,16 +4374,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 176.53) (xy 119.38 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c068acb9-67d1-4840-a002-3dea9eb88463")
-	)
-	(wire
-		(pts
 			(xy 247.65 63.5) (xy 260.35 63.5)
 		)
 		(stroke
@@ -4484,7 +4434,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 181.61) (xy 119.38 181.61)
+			(xy 113.03 181.61) (xy 119.38 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4521,6 +4471,16 @@
 			(type default)
 		)
 		(uuid "e17cf760-eb97-4046-9150-5c52a99fbd8a")
+	)
+	(wire
+		(pts
+			(xy 154.94 171.45) (xy 156.21 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e870e281-9f9d-45b3-81a7-8a178322181a")
 	)
 	(wire
 		(pts
@@ -15060,8 +15020,8 @@
 		)
 		(uuid "13ea226b-630c-477d-b458-0598c306009b")
 	)
-	(label "M1-"
-		(at 115.57 168.91 0)
+	(label "M1+"
+		(at 113.03 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15090,8 +15050,8 @@
 		)
 		(uuid "5be8759a-dbe0-4962-bfbe-b7f40c6e5430")
 	)
-	(label "M1+"
-		(at 115.57 181.61 0)
+	(label "M1-"
+		(at 113.03 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15230,7 +15190,7 @@
 	)
 	(global_label "ENCODER_B_2"
 		(shape input)
-		(at 153.67 176.53 180)
+		(at 156.21 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15240,7 +15200,7 @@
 		)
 		(uuid "10baf0b6-8637-40e7-881c-ce85cf593b58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.5011 176.53 0)
+			(at 140.0411 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15302,7 +15262,7 @@
 	)
 	(global_label "ENCODER_B_1"
 		(shape input)
-		(at 116.84 173.99 180)
+		(at 119.38 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15312,7 +15272,7 @@
 		)
 		(uuid "52177f0c-b640-4492-abed-52a2c26a19d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.6711 173.99 0)
+			(at 103.2111 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15374,7 +15334,7 @@
 	)
 	(global_label "ENCODER_A_1"
 		(shape input)
-		(at 116.84 171.45 180)
+		(at 119.38 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15384,7 +15344,7 @@
 		)
 		(uuid "7bc4d802-c3bf-4eb6-af8b-1984eb277f3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.8525 171.45 0)
+			(at 103.3925 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15542,7 +15502,7 @@
 	)
 	(global_label "ENCODER_A_2"
 		(shape input)
-		(at 153.67 173.99 180)
+		(at 156.21 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15552,7 +15512,7 @@
 		)
 		(uuid "eb90e7ac-b695-4d6f-967d-b201226e48e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.6825 173.99 0)
+			(at 140.2225 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16572,7 +16532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "379ec817-c1e5-46dd-b19d-b9abacd716f9")
-		(property "Reference" "U11"
+		(property "Reference" "I4"
 			(at 243.84 111.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16669,7 +16629,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "U11")
+					(reference "I4")
 					(unit 1)
 				)
 			)
@@ -16844,7 +16804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4172a392-7ab2-49f7-a1eb-79b05380fc8d")
-		(property "Reference" "U12"
+		(property "Reference" "I5"
 			(at 227.33 37.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16941,7 +16901,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "U12")
+					(reference "I5")
 					(unit 1)
 				)
 			)
@@ -17173,7 +17133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ARLISS-footprints:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 267.97 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -17661,85 +17621,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 179.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67648ea5-b0af-4f0f-9a08-ea88ce551549")
-		(property "Reference" "#PWR070"
-			(at 110.49 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 179.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cee27c49-be38-453e-abd7-ba62dbc2f257")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 222.25 49.53 90)
 		(unit 1)
@@ -17894,6 +17775,85 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 171.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7397143e-b8f9-4afa-bf59-91c21022f76d")
+		(property "Reference" "#PWR070"
+			(at 110.49 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 171.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "533f7648-5d3e-439b-99ba-c25dfeaec4c2")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -18183,7 +18143,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ARLISS-footprints:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 265.43 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -18624,7 +18584,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ARLISS-footprints:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 252.73 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -19364,7 +19324,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 171.45 270)
+		(at 154.94 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19375,7 +19335,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc3325e1-7921-45b7-9ae8-b68d5ca300fc")
 		(property "Reference" "#PWR069"
-			(at 143.51 171.45 0)
+			(at 148.59 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19386,7 +19346,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 171.4499 90)
+			(at 151.13 171.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19397,7 +19357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 171.45 0)
+			(at 154.94 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19408,7 +19368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 171.45 0)
+			(at 154.94 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19419,7 +19379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 171.45 0)
+			(at 154.94 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19822,7 +19782,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 116.84 176.53 90)
+		(at 116.84 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19833,7 +19793,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf0f62e7-35d4-4d46-84c5-50901eecfc33")
 		(property "Reference" "#PWR03"
-			(at 120.65 176.53 0)
+			(at 120.65 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19844,7 +19804,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 113.03 176.5299 90)
+			(at 113.03 179.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19855,7 +19815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 176.53 0)
+			(at 116.84 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19866,7 +19826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 176.53 0)
+			(at 116.84 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19877,7 +19837,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 116.84 176.53 0)
+			(at 116.84 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20291,7 +20251,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ARLISS-footprints:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 255.27 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -21083,7 +21043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ARLISS-footprints:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 121.92 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -21196,7 +21156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ARLISS-footprints:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 120.65 105.41 0)
 			(hide yes)
 			(show_name no)
