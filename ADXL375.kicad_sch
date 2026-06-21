@@ -9029,7 +9029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ARLISS-footprints:L0402"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 228.6 101.6 0)
 			(hide yes)
 			(show_name no)
