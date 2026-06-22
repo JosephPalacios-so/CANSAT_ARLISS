@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "6e58ee5b-bf15-4081-92c5-f8e1069d49f6")
 	(paper "A4")
+	(title_block
+		(company "TOMEK TEAM")
+	)
 	(lib_symbols
 		(symbol "4754:4754"
 			(pin_names
@@ -5709,7 +5712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d9457d9-6902-45b3-bed8-60cd27aa3dd6")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR028"
 			(at 143.51 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5769,7 +5772,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/243e1b39-32df-463e-8f3d-bc06fe39ea80"
-					(reference "#PWR050")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5787,7 +5790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3856adfb-f69e-4306-9424-fd8d7d6c119e")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 165.1 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,7 +6028,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/243e1b39-32df-463e-8f3d-bc06fe39ea80"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6043,7 +6046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42f0e0fe-5f78-48c8-95c7-d4e427df0cdc")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR029"
 			(at 181.61 127 0)
 			(hide yes)
 			(show_name no)
@@ -6103,7 +6106,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/243e1b39-32df-463e-8f3d-bc06fe39ea80"
-					(reference "#PWR051")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6121,7 +6124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69610c88-c377-4b43-b98b-c0b2436b2fba")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR030"
 			(at 191.77 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6181,7 +6184,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/243e1b39-32df-463e-8f3d-bc06fe39ea80"
-					(reference "#PWR052")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

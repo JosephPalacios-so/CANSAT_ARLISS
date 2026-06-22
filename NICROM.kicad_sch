@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "4249ec43-c6fd-4606-9b58-7ab5e3b02b95")
 	(paper "A4")
+	(title_block
+		(company "TOMEK TEAM")
+	)
 	(lib_symbols
 		(symbol "CANSAT_STM32_symbols:IRLZ44NPBF"
 			(exclude_from_sim no)
@@ -2954,7 +2957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14974edf-c3b9-4c85-a592-9733b1f20e5a")
-		(property "Reference" "R27"
+		(property "Reference" "R17"
 			(at 92.71 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3029,7 +3032,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/5b57be68-8372-451f-98b5-1e3ec0294f41"
-					(reference "R27")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3047,7 +3050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31709b90-a53f-4c20-9849-055a8e26365c")
-		(property "Reference" "R25"
+		(property "Reference" "R18"
 			(at 120.65 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3122,7 +3125,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/5b57be68-8372-451f-98b5-1e3ec0294f41"
-					(reference "R25")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3140,7 +3143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b7b4600-4afb-4f92-8873-e0a94c8f2b74")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 146.05 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3215,7 +3218,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/5b57be68-8372-451f-98b5-1e3ec0294f41"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3233,7 +3236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad7379ec-569d-4507-b5dd-1deb35b3a436")
-		(property "Reference" "R6"
+		(property "Reference" "R19"
 			(at 125.73 109.2199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3288,17 +3291,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 135.89 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "RC0603FR-07100KL"
 			(at 138.43 110.49 0)
 			(hide yes)
@@ -3330,7 +3322,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/5b57be68-8372-451f-98b5-1e3ec0294f41"
-					(reference "R6")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3403,17 +3395,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Infineon(英飞凌)"
-			(at 135.89 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "IRLZ44NPBF"
 			(at 135.89 119.38 0)
 			(hide yes)
@@ -3466,7 +3447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6f7b255-9f6c-4c1f-87c7-8a957455351c")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0109"
 			(at 90.17 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3526,7 +3507,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/5b57be68-8372-451f-98b5-1e3ec0294f41"
-					(reference "#PWR089")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -3543,7 +3524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7397382-67e8-45d2-a49f-8bfa1d3c3fbc")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0111"
 			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3604,7 +3585,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/5b57be68-8372-451f-98b5-1e3ec0294f41"
-					(reference "#PWR071")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3622,7 +3603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3481ab6-baec-47f0-ba47-3e6a4ffba77a")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0110"
 			(at 129.54 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3682,7 +3663,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/5b57be68-8372-451f-98b5-1e3ec0294f41"
-					(reference "#PWR064")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)

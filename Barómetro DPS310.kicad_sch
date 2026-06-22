@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "f81fc774-048c-44bc-ad91-77732c14791b")
 	(paper "A4")
+	(title_block
+		(company "TOMEK TEAM")
+	)
 	(lib_symbols
 		(symbol "CANSAT_STM32_symbols:DPS310XTSA1"
 			(exclude_from_sim no)
@@ -5359,7 +5362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0036504b-057e-482c-b767-833ad8af6730")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR063"
 			(at 146.05 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5420,7 +5423,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/9e299f07-4887-409a-8623-587b30453872"
-					(reference "#PWR054")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5438,7 +5441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "416c6daa-3a1f-41d7-97c6-59f007ed2ab4")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR065"
 			(at 181.61 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5498,7 +5501,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/9e299f07-4887-409a-8623-587b30453872"
-					(reference "#PWR060")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5516,7 +5519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bd8a3a9-a2f2-45cc-b9b5-ef25169c92b0")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR068"
 			(at 203.2 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5576,7 +5579,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/9e299f07-4887-409a-8623-587b30453872"
-					(reference "#PWR058")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -5594,7 +5597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5673ed9e-8a86-49e6-a34c-965ad0cffef8")
-		(property "Reference" "R1"
+		(property "Reference" "R11"
 			(at 184.15 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5669,7 +5672,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/9e299f07-4887-409a-8623-587b30453872"
-					(reference "R1")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5687,7 +5690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5908edf9-338e-46b2-9f20-4edf588545da")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR067"
 			(at 198.12 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5747,7 +5750,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/9e299f07-4887-409a-8623-587b30453872"
-					(reference "#PWR055")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5765,7 +5768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a94104c-21c0-4b6d-9499-c1340adb9be5")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR066"
 			(at 184.15 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5825,7 +5828,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/9e299f07-4887-409a-8623-587b30453872"
-					(reference "#PWR056")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -5843,7 +5846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e417723-f95c-42fa-a991-166c12c79c68")
-		(property "Reference" "C25"
+		(property "Reference" "C28"
 			(at 207.01 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5865,7 +5868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 210.82 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5889,17 +5892,6 @@
 		)
 		(property "Description" ""
 			(at 203.2 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "CCTC(三环)"
-			(at 215.9 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5940,7 +5932,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/9e299f07-4887-409a-8623-587b30453872"
-					(reference "C25")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -5958,7 +5950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "837c0869-d508-440f-971a-90d8e5f1fd20")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR069"
 			(at 203.2 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6019,7 +6011,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/9e299f07-4887-409a-8623-587b30453872"
-					(reference "#PWR057")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6081,17 +6073,6 @@
 		)
 		(property "Description" ""
 			(at 166.37 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Infineon(英飞凌)"
-			(at 166.37 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6168,7 +6149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5ea5d84-2873-4d3f-b701-0402709bdad3")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR064"
 			(at 186.69 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6229,7 +6210,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/9e299f07-4887-409a-8623-587b30453872"
-					(reference "#PWR053")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -6247,7 +6228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbac5146-df97-40bf-8ed2-0ba5a6a1aada")
-		(property "Reference" "C24"
+		(property "Reference" "C27"
 			(at 187.96 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6269,7 +6250,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 191.77 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6293,17 +6274,6 @@
 		)
 		(property "Description" ""
 			(at 184.15 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "CCTC(三环)"
-			(at 196.85 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6344,7 +6314,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/9e299f07-4887-409a-8623-587b30453872"
-					(reference "C24")
+					(reference "C27")
 					(unit 1)
 				)
 			)
