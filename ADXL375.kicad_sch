@@ -8261,7 +8261,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_NSS"
+	(global_label "SPI2_CS"
 		(shape input)
 		(at 153.67 106.68 180)
 		(fields_autoplaced yes)
@@ -8273,7 +8273,7 @@
 		)
 		(uuid "422d6803-9f48-4c7a-ad63-6f3c0b0685d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.6739 106.68 0)
+			(at 142.9439 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8285,7 +8285,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_CSK"
+	(global_label "SPI2_SCLK"
 		(shape input)
 		(at 153.67 96.52 180)
 		(fields_autoplaced yes)
@@ -8297,7 +8297,7 @@
 		)
 		(uuid "7ad7d02c-7b63-478a-855f-16428864ef6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.6739 96.52 0)
+			(at 140.6458 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8989,7 +8989,7 @@
 				)
 			)
 		)
-		(property "Value" "0R 100Mhz"
+		(property "Value" "90R 100Mhz"
 			(at 228.57 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8999,7 +8999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 228.6 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9010,7 +9010,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Ferrite-Beads-And-Chips_0R-25_C139137.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C50325905.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=E1NWVQUCRlhbBlQCFAQIVQJXQ1UKV1AATgdWXgAERFExVlNeRVBaX1ZST1RWXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
 			(at 228.6 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9032,7 +9032,7 @@
 				)
 			)
 		)
-		(property "MPN" "CBG100505U000T"
+		(property "MPN" "APBD1608-900WTD12"
 			(at 228.6 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9043,7 +9043,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C139137"
+		(property "LCSC Part" "C50325905"
 			(at 228.6 111.76 0)
 			(hide yes)
 			(show_name no)
