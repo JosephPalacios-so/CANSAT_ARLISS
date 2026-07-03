@@ -259,6 +259,17 @@
 				)
 			)
 		)
+		(property "Field7" ""
+			(at 20.32 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f"
@@ -325,6 +336,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 20.32 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
 			(at 20.32 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -411,6 +433,17 @@
 				)
 			)
 		)
+		(property "Field7" ""
+			(at 20.32 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f"
@@ -477,6 +510,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 20.32 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
 			(at 20.32 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -563,6 +607,17 @@
 				)
 			)
 		)
+		(property "Field7" ""
+			(at 20.32 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f"
@@ -629,6 +684,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 20.32 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
 			(at 20.32 52.07 0)
 			(hide yes)
 			(show_name no)

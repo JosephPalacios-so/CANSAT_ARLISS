@@ -19042,7 +19042,7 @@
 			(uuid "d17f38da-7660-4ae2-8c2b-979a4f9ddc4b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Joseph/CANSAT/libs/easyeda2kicad.3dshapes/HTSSOP-16_L5.0-W4.4-H1.2-LS6.4-P0.65.wrl"
+		(model "${KIPRJMOD}/libs/easyeda2kicad.3dshapes/HTSSOP-16_L5.0-W4.4-H1.2-LS6.4-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22193,7 +22193,7 @@
 			(uuid "3575f563-57d0-4538-9d60-d17e1e1a43f0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Joseph/CANSAT/libs/easyeda2kicad.3dshapes/HTSSOP-16_L5.0-W4.4-H1.2-LS6.4-P0.65.wrl"
+		(model "${KIPRJMOD}/libs/easyeda2kicad.3dshapes/HTSSOP-16_L5.0-W4.4-H1.2-LS6.4-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)

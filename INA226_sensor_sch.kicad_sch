@@ -5440,6 +5440,17 @@
 				)
 			)
 		)
+		(property "Field7" ""
+			(at 58.42 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0445208b-55d6-43aa-8178-3b85c54eed04")
 		)
@@ -6017,6 +6028,17 @@
 				)
 			)
 		)
+		(property "Field7" ""
+			(at 184.15 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55f09429-6044-4f27-9fbc-924a6c8daacb")
 		)
@@ -6305,6 +6327,17 @@
 				)
 			)
 		)
+		(property "Field7" ""
+			(at 220.98 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c92e379a-be09-4ea1-94b4-9a7c1ff18327")
 		)
@@ -6477,6 +6510,17 @@
 		)
 		(property "LCSC Part" "C49851"
 			(at 118.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 118.11 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6966,7 +7010,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5448844.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.cbh&lcsc_vid=FVBZXlJVElFWAVdTTgAPVAcHR1hXAlIFT1cMUAFWQVYxVlNeRFBfVlJeQ1VXXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 95.25 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6999,8 +7043,19 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5448844"
+		(property "LCSC Part" "C282518"
 			(at 102.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 85.09 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7070,7 +7125,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5448844.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.cbh&lcsc_vid=FVBZXlJVElFWAVdTTgAPVAcHR1hXAlIFT1cMUAFWQVYxVlNeRFBfVlJeQ1VXXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 163.83 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7103,8 +7158,19 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5448844"
+		(property "LCSC Part" "C282518"
 			(at 171.45 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 153.67 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

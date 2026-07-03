@@ -3023,6 +3023,17 @@
 				)
 			)
 		)
+		(property "Field7" ""
+			(at 90.17 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "959b2c50-10f2-47e4-81ce-c6e47d7c66e5")
 		)
@@ -3116,6 +3127,17 @@
 				)
 			)
 		)
+		(property "Field7" ""
+			(at 123.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a25072bb-616d-4a36-ab51-9166713c46fd")
 		)
@@ -3199,6 +3221,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C8465.html?s_z=n_C8465"
+			(at 143.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3313,6 +3346,17 @@
 				)
 			)
 		)
+		(property "Field7" ""
+			(at 123.19 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ac73cce-aff7-458e-83ef-e26f509a8c01")
 		)
@@ -3408,6 +3452,17 @@
 		)
 		(property "LCSC Part" "C38774"
 			(at 135.89 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 135.89 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

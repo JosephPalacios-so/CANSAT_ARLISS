@@ -5996,7 +5996,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Adafruit"
+		(property "Manufacturer" "Adafruit"
 			(at 164.592 137.414 0)
 			(hide yes)
 			(show_name no)
@@ -6030,6 +6030,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Field7" ""
+			(at 165.1 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "JP1_1"

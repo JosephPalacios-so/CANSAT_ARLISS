@@ -1065,18 +1065,18 @@
         },
         {
           "group_by": false,
-          "label": "Manufacturer",
-          "name": "MANUFACTURER",
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "c",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
