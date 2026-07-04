@@ -16725,7 +16725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.cbh&lcsc_vid=FVBZXlJVElFWAVdTTgAPVAcHR1hXAlIFT1cMUAFWQVYxVlNeRFBfVlJeQ1VXXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf"
 			(at 270.51 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -17258,7 +17258,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C541460.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVVVQRVZXVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1853771.pdf"
 			(at 201.93 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -17292,6 +17292,17 @@
 			)
 		)
 		(property "Field7" ""
+			(at 201.93 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1853771"
 			(at 201.93 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -17519,7 +17530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.cbh&lcsc_vid=FVBZXlJVElFWAVdTTgAPVAcHR1hXAlIFT1cMUAFWQVYxVlNeRFBfVlJeQ1VXXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf"
 			(at 267.97 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17971,7 +17982,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.cbh&lcsc_vid=FVBZXlJVElFWAVdTTgAPVAcHR1hXAlIFT1cMUAFWQVYxVlNeRFBfVlJeQ1VXXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf"
 			(at 255.27 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -18970,7 +18981,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C272878.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVVVQRVZXVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C115056.pdf"
 			(at 128.27 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19004,6 +19015,17 @@
 			)
 		)
 		(property "Field7" ""
+			(at 128.27 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C115056"
 			(at 128.27 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19266,7 +19288,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C541460.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVVVQRVZXVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1853771.pdf"
 			(at 201.93 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -19300,6 +19322,17 @@
 			)
 		)
 		(property "Field7" ""
+			(at 201.93 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1853771"
 			(at 201.93 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -19563,7 +19596,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C272878.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1ILAVAFQwMNAQdVQQRYBVFeFVhXV1UAFVdZVAcFQlgxVlNeR1FWVVVQRVZXVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C115056.pdf"
 			(at 128.27 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -19597,6 +19630,17 @@
 			)
 		)
 		(property "Field7" ""
+			(at 128.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C115056"
 			(at 128.27 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -19746,7 +19790,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.cbh&lcsc_vid=FVBZXlJVElFWAVdTTgAPVAcHR1hXAlIFT1cMUAFWQVYxVlNeRFBfVlJeQ1VXXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf"
 			(at 257.81 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -20549,7 +20593,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.cbh&lcsc_vid=FVBZXlJVElFWAVdTTgAPVAcHR1hXAlIFT1cMUAFWQVYxVlNeRFBfVlJeQ1VXXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf"
 			(at 121.92 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -20662,7 +20706,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.cbh&lcsc_vid=FVBZXlJVElFWAVdTTgAPVAcHR1hXAlIFT1cMUAFWQVYxVlNeRFBfVlJeQ1VXXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf"
 			(at 120.65 102.87 0)
 			(hide yes)
 			(show_name no)

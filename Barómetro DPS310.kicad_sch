@@ -5890,7 +5890,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.cbh&lcsc_vid=FVBZXlJVElFWAVdTTgAPVAcHR1hXAlIFT1cMUAFWQVYxVlNeRFBfVlJeQ1VXXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf"
 			(at 213.36 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6294,7 +6294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.cbh&lcsc_vid=FVBZXlJVElFWAVdTTgAPVAcHR1hXAlIFT1cMUAFWQVYxVlNeRFBfVlJeQ1VXXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C282518.pdf"
 			(at 194.31 81.28 0)
 			(hide yes)
 			(show_name no)
