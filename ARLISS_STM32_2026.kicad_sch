@@ -1053,7 +1053,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "9e299f07-4887-409a-8623-587b30453872")
-		(property "Sheetname" "DPS310 Sheet"
+		(property "Sheetname" "BMP581"
 			(at 57.15 76.7584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1064,7 +1064,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Barómetro DPS310.kicad_sch"
+		(property "Sheetfile" "Barómetro Botch SMD.kicad_sch"
 			(at 57.15 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)

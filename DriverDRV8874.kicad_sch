@@ -3285,6 +3285,26 @@
 		)
 		(uuid "ff18699c-b391-4673-9644-6ad02a29dbeb")
 	)
+	(text_box "COMPRAR EL 15A"
+		(exclude_from_sim no)
+		(at 196.85 67.31 0)
+		(size 13.97 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "20de2381-db9f-452e-95b6-e909dc5cb8ef")
+	)
 	(junction
 		(at 128.27 52.07)
 		(diameter 0)

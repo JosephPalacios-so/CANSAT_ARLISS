@@ -147,14 +147,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CANSAT_STM32_symbols:436500300"
+		(symbol "CANSAT_STM32_symbols:0430450400"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "CN"
-				(at 0 7.62 0)
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -163,8 +163,8 @@
 					)
 				)
 			)
-			(property "Value" "436500300"
-				(at 0 -7.62 0)
+			(property "Value" "0430450400"
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -173,8 +173,8 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:CONN-TH_3P-436500300"
-				(at 0 -10.16 0)
+			(property "Footprint" "easyeda2kicad:CONN-TH_0430450400"
+				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -184,8 +184,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-436500300_C503478.html"
-				(at 0 -12.7 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Connectors_MOLEX_0430450400_Connectors-4Contacts-plug-3mm-welding-2_C122413.html"
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -207,7 +207,7 @@
 				)
 			)
 			(property "Manufacturer" "MOLEX"
-				(at 0 -15.24 0)
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -217,8 +217,8 @@
 					)
 				)
 			)
-			(property "MPN" "436500300"
-				(at 0 -17.78 0)
+			(property "MPN" "0430450400"
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -228,8 +228,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C503478"
-				(at 0 -20.32 0)
+			(property "LCSC Part" "C122413"
+				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -250,10 +250,10 @@
 					)
 				)
 			)
-			(symbol "436500300_0_1"
+			(symbol "0430450400_0_1"
 				(rectangle
-					(start -1.27 5.08)
-					(end 3.81 -5.08)
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -262,20 +262,9 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 0 3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin unspecified line
-					(at -3.81 2.54 0)
-					(length 2.54)
+					(at 10.16 -1.27 180)
+					(length 5.08)
 					(name "1"
 						(effects
 							(font
@@ -292,8 +281,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -3.81 0 0)
-					(length 2.54)
+					(at -10.16 -1.27 0)
+					(length 5.08)
 					(name "2"
 						(effects
 							(font
@@ -310,8 +299,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -3.81 -2.54 0)
-					(length 2.54)
+					(at 10.16 1.27 180)
+					(length 5.08)
 					(name "3"
 						(effects
 							(font
@@ -320,6 +309,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6934,7 +6941,7 @@
 	)
 	(text_box "RADXA UART INTERFACE"
 		(exclude_from_sim no)
-		(at 377.19 134.4817 0)
+		(at 377.19 135.89 0)
 		(size 25.4 3.9483)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -7978,16 +7985,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 146.05) (xy 382.27 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b04de43-420a-400a-b5ea-dca32d6e9825")
-	)
-	(wire
-		(pts
 			(xy 167.64 45.72) (xy 167.64 53.34)
 		)
 		(stroke
@@ -8005,16 +8002,6 @@
 			(type default)
 		)
 		(uuid "9d21d7d0-0a49-4131-a019-84ede25d1c33")
-	)
-	(wire
-		(pts
-			(xy 379.73 151.13) (xy 382.27 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9da979e2-9ea0-4340-92e0-2c38cbb13010")
 	)
 	(wire
 		(pts
@@ -8165,6 +8152,16 @@
 			(type default)
 		)
 		(uuid "b5e250a2-ce47-450a-9042-d05cbefdac40")
+	)
+	(wire
+		(pts
+			(xy 375.92 152.4) (xy 378.46 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6813e6c-07a0-4f87-8c77-5652c8cafc58")
 	)
 	(wire
 		(pts
@@ -8348,16 +8345,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 148.59) (xy 382.27 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c97fcb5d-a845-4950-ab6b-cc3ce30b26f8")
-	)
-	(wire
-		(pts
 			(xy 119.38 58.42) (xy 118.11 58.42)
 		)
 		(stroke
@@ -8425,6 +8412,16 @@
 			(type default)
 		)
 		(uuid "d8f65be4-6b8d-4113-b301-20c664320cc2")
+	)
+	(wire
+		(pts
+			(xy 398.78 152.4) (xy 403.86 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a2949d-61fc-44ce-9f3e-1eb2c71cc59c")
 	)
 	(wire
 		(pts
@@ -15934,16 +15931,6 @@
 		)
 		(uuid "24b6fb32-615c-46bd-952e-bbe6c27a747a")
 	)
-	(label "RX2"
-		(at 379.73 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a68d061-f0b8-4e24-ae98-b234e022e6d0")
-	)
 	(label "OSC_IN"
 		(at 363.22 207.01 0)
 		(effects
@@ -15975,14 +15962,14 @@
 		(uuid "3ad3ce8a-abcf-4c95-b2bb-0c3fe086f258")
 	)
 	(label "TX2"
-		(at 379.73 146.05 180)
+		(at 375.92 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "5c3b8223-9a9e-4413-aba9-b390d3573a27")
+		(uuid "57ad7f60-406b-4a2a-b58b-5d0f5679f25b")
 	)
 	(label "OSC_OUT"
 		(at 341.63 185.42 180)
@@ -15993,6 +15980,16 @@
 			(justify right bottom)
 		)
 		(uuid "5d25324c-e300-43a9-98a2-671f1bbd7fb9")
+	)
+	(label "RX2"
+		(at 403.86 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60a230e5-07d5-4ad2-9d41-b986969b4508")
 	)
 	(label "RX1"
 		(at 248.92 161.29 0)
@@ -18739,6 +18736,203 @@
 		)
 	)
 	(symbol
+		(lib_id "CANSAT_STM32_symbols:0430450400")
+		(at 388.62 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "697b5158-0c9f-414d-a37f-6fd62e6ac025")
+		(property "Reference" "CN4"
+			(at 388.62 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0430450400"
+			(at 388.62 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ARLISS-footprints:CONN-TH_0430450400"
+			(at 388.62 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Connectors_MOLEX_0430450400_Connectors-4Contacts-plug-3mm-welding-2_C122413.html"
+			(at 388.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 388.62 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 388.62 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0430450400"
+			(at 388.62 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C122413"
+			(at 388.62 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "aa314d38-bdf0-466a-a50f-78b10e9fc8c0")
+		)
+		(pin "1"
+			(uuid "a8926da5-e7f5-4420-b83f-d68cad8d13f8")
+		)
+		(pin "3"
+			(uuid "8dbea4d6-f715-431a-97b7-abb5e28ec5cf")
+		)
+		(pin "2"
+			(uuid "d9a227c2-ac9b-4ace-8327-67028f5dc7f8")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/55efcca8-1297-47b0-ad35-b3f1b6f19299"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 398.78 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "720ca81c-6b43-4490-ab84-e779034d112d")
+		(property "Reference" "#PWR088"
+			(at 398.78 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 398.78 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 398.78 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42ddbb84-5d88-4b39-bf8e-3e4ba7df723c")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/55efcca8-1297-47b0-ad35-b3f1b6f19299"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CANSAT_STM32_symbols:RC0603FR-7W10KL")
 		(at 156.21 36.83 90)
 		(unit 1)
@@ -19313,8 +19507,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CANSAT_STM32_symbols:436500300")
-		(at 386.08 148.59 0)
+		(lib_id "power:GND")
+		(at 378.46 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19323,31 +19517,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7c15583f-2040-42bc-98d2-0f75da0b2d55")
-		(property "Reference" "CN3"
-			(at 391.16 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "436500300"
-			(at 391.16 149.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ARLISS-footprints:CONN-TH_3P-436500300"
-			(at 386.08 158.75 0)
+		(uuid "81a1ceaf-78f4-48cc-8309-896e44039e5e")
+		(property "Reference" "#PWR090"
+			(at 378.46 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19357,8 +19529,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-436500300_C503478.html"
-			(at 386.08 161.29 0)
+		(property "Value" "GND"
+			(at 378.46 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19368,8 +19550,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 386.08 148.59 0)
+		(property "Datasheet" ""
+			(at 378.46 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19379,41 +19561,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
-			(at 386.08 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "436500300"
-			(at 386.08 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C503478"
-			(at 386.08 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" ""
-			(at 386.08 148.59 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 378.46 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19424,18 +19573,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "108e8db7-ea88-4bc0-8b15-2b61941ae7be")
-		)
-		(pin "2"
-			(uuid "6011ad9a-d590-4152-a7bf-6d6d77f32975")
-		)
-		(pin "3"
-			(uuid "141a4a50-a7b7-423c-951a-76ccf4c0c7f6")
+			(uuid "20c9aa11-7e32-4b5d-bea4-cc9d8e986f1f")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/55efcca8-1297-47b0-ad35-b3f1b6f19299"
-					(reference "CN3")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -22212,7 +22355,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C100042.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C115056.pdf"
 			(at 381 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -22256,7 +22399,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C100042"
+		(property "LCSC Part" "C115056"
 			(at 381 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -22626,84 +22769,6 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/55efcca8-1297-47b0-ad35-b3f1b6f19299"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 379.73 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e50bdc85-89bd-4871-8339-d127edfb3162")
-		(property "Reference" "#PWR088"
-			(at 379.73 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 379.73 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 379.73 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 379.73 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 379.73 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e865cd7c-2719-4c22-b699-be58804b73f5")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/55efcca8-1297-47b0-ad35-b3f1b6f19299"
-					(reference "#PWR088")
 					(unit 1)
 				)
 			)

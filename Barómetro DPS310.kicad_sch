@@ -8,7 +8,7 @@
 		(company "TOMEK TEAM")
 	)
 	(lib_symbols
-		(symbol "CANSAT_STM32_symbols:DPS310XTSA1"
+		(symbol "CANSAT_STM32_symbols:DPS368XTSA1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -24,7 +24,7 @@
 					)
 				)
 			)
-			(property "Value" "DPS310XTSA1"
+			(property "Value" "DPS368XTSA1"
 				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:LGA-8_DPS310XTSA1"
+			(property "Footprint" "easyeda2kicad:LGA-8_L2.5-W2.0-P0.65-TR_DPS368"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -45,7 +45,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Sensors_Infineon_DPS310XTSA1_DPS310XTSA1_C130156.html"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C3232508.pdf"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -78,7 +78,7 @@
 					)
 				)
 			)
-			(property "MPN" "DPS310"
+			(property "MPN" "DPS368XTSA1"
 				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -89,7 +89,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C130156"
+			(property "LCSC Part" "C3232508"
 				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -111,10 +111,10 @@
 					)
 				)
 			)
-			(symbol "DPS310XTSA1_0_1"
+			(symbol "DPS368XTSA1_0_1"
 				(rectangle
-					(start -10.16 6.86)
-					(end 10.16 -6.86)
+					(start -8.89 6.35)
+					(end 8.89 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -124,18 +124,7 @@
 					)
 				)
 				(circle
-					(center -8.89 5.59)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -8.89 5.59)
+					(center -7.62 5.08)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -146,7 +135,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -12.7 3.81 0)
+					(at -11.43 3.81 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -164,7 +153,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -12.7 1.27 0)
+					(at -11.43 1.27 0)
 					(length 2.54)
 					(name "CSB"
 						(effects
@@ -182,7 +171,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -12.7 -1.27 0)
+					(at -11.43 -1.27 0)
 					(length 2.54)
 					(name "SDI"
 						(effects
@@ -200,7 +189,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -12.7 -3.81 0)
+					(at -11.43 -3.81 0)
 					(length 2.54)
 					(name "SCK"
 						(effects
@@ -218,7 +207,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 12.7 -3.81 180)
+					(at 11.43 -3.81 180)
 					(length 2.54)
 					(name "SDO"
 						(effects
@@ -236,7 +225,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 12.7 -1.27 180)
+					(at 11.43 -1.27 180)
 					(length 2.54)
 					(name "VDDIO"
 						(effects
@@ -254,7 +243,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 12.7 1.27 180)
+					(at 11.43 1.27 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -272,7 +261,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 12.7 3.81 180)
+					(at 11.43 3.81 180)
 					(length 2.54)
 					(name "VDD"
 						(effects
@@ -1025,12 +1014,12 @@
 		(uuid "db529e68-06ed-4fd4-8db8-38eb24f07f74")
 	)
 	(no_connect
-		(at 153.67 92.71)
+		(at 156.21 92.71)
 		(uuid "30b7503a-1c4b-46fd-a19c-f5a59d59d58d")
 	)
 	(wire
 		(pts
-			(xy 148.59 97.79) (xy 153.67 97.79)
+			(xy 151.13 97.79) (xy 156.21 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1050,7 +1039,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 90.17) (xy 153.67 90.17)
+			(xy 154.94 90.17) (xy 156.21 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1080,7 +1069,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 95.25) (xy 153.67 95.25)
+			(xy 151.13 95.25) (xy 156.21 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5305,7 +5294,7 @@
 	)
 	(global_label "I2C1_SDA"
 		(shape input)
-		(at 148.59 95.25 180)
+		(at 151.13 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5315,7 +5304,7 @@
 		)
 		(uuid "7738b344-17a3-4107-99ef-999941491d0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.7753 95.25 0)
+			(at 139.3153 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5329,7 +5318,7 @@
 	)
 	(global_label "I2C1_SCL"
 		(shape input)
-		(at 148.59 97.79 180)
+		(at 151.13 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5339,7 +5328,7 @@
 		)
 		(uuid "bc6184bc-167f-4554-bb14-1adfa102d643")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.8358 97.79 0)
+			(at 139.3758 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +5342,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 90.17 270)
+		(at 154.94 90.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5363,7 +5352,7 @@
 		(dnp no)
 		(uuid "0036504b-057e-482c-b767-833ad8af6730")
 		(property "Reference" "#PWR063"
-			(at 146.05 90.17 0)
+			(at 148.59 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5374,7 +5363,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 87.884 90)
+			(at 150.876 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5385,7 +5374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 90.17 0)
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,7 +5385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 90.17 0)
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +5396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 90.17 0)
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6040,8 +6029,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CANSAT_STM32_symbols:DPS310XTSA1")
-		(at 166.37 93.98 0)
+		(lib_id "CANSAT_STM32_symbols:DPS368XTSA1")
+		(at 167.64 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6050,9 +6039,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1b7c6ee-5741-499b-b064-d5117e0b6a6a")
-		(property "Reference" "U5"
-			(at 166.37 82.55 0)
+		(uuid "ac0c692e-6acb-4bb6-b157-409286dad516")
+		(property "Reference" "U8"
+			(at 167.64 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6061,8 +6050,8 @@
 				)
 			)
 		)
-		(property "Value" "DPS310XTSA1"
-			(at 166.37 85.09 0)
+		(property "Value" "DPS368XTSA1"
+			(at 167.64 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6071,8 +6060,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ARLISS-footprints:LGA-8_DPS310XTSA1"
-			(at 166.37 105.41 0)
+		(property "Footprint" "easyeda2kicad:LGA-8_L2.5-W2.0-P0.65-TR_DPS368"
+			(at 167.64 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6082,8 +6071,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Sensors_Infineon_DPS310XTSA1_DPS310XTSA1_C130156.html"
-			(at 166.37 107.95 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3232508.pdf"
+			(at 167.64 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6094,7 +6083,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 93.98 0)
+			(at 167.64 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6104,8 +6093,8 @@
 				)
 			)
 		)
-		(property "MPN" "DPS310"
-			(at 166.37 113.03 0)
+		(property "Manufacturer" "Infineon(英飞凌)"
+			(at 167.64 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6115,8 +6104,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C130156"
-			(at 166.37 115.57 0)
+		(property "MPN" "DPS368XTSA1"
+			(at 167.64 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6126,8 +6115,8 @@
 				)
 			)
 		)
-		(property "Field7" ""
-			(at 166.37 93.98 0)
+		(property "LCSC Part" "C3232508"
+			(at 167.64 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6136,35 +6125,35 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "5"
-			(uuid "d00e9352-0cfc-43b4-9ced-08719e6c6090")
-		)
-		(pin "1"
-			(uuid "a526d652-6ecb-4d8e-a819-40a8dee8086a")
-		)
-		(pin "6"
-			(uuid "67453016-c575-45c3-9aa0-7420ee51233a")
-		)
-		(pin "8"
-			(uuid "54f217d1-2bcd-4929-ad03-67ec77846eb4")
-		)
-		(pin "4"
-			(uuid "dd04cb42-cb39-4767-b597-ee2d5055c01c")
-		)
-		(pin "7"
-			(uuid "41a81b50-eb9b-4849-b3dd-890f97895a56")
-		)
-		(pin "3"
-			(uuid "c193b286-52d5-488f-a9e7-3a85deeba3dd")
 		)
 		(pin "2"
-			(uuid "2bf6366a-be9a-4278-b2d9-a81ed0852a70")
+			(uuid "88240e86-a273-4352-89a7-79e897470899")
+		)
+		(pin "1"
+			(uuid "36ab5d60-cbc2-421f-bb7f-482c9181eb17")
+		)
+		(pin "4"
+			(uuid "658ad0e3-ca4f-4e2f-8dad-51d39770e68a")
+		)
+		(pin "5"
+			(uuid "babffa46-4697-4a93-81b3-5275bd4e9ecd")
+		)
+		(pin "3"
+			(uuid "56122fb5-c443-47d0-a43c-a2833460266c")
+		)
+		(pin "6"
+			(uuid "724b01f0-797d-4d5c-be0f-6dd66e0f4810")
+		)
+		(pin "8"
+			(uuid "b024fe1b-87d2-4c8a-8cba-808e5ebd900b")
+		)
+		(pin "7"
+			(uuid "8bcd0ec8-190d-4f01-aff9-7f00628c3d46")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/9e299f07-4887-409a-8623-587b30453872"
-					(reference "U5")
+					(reference "U8")
 					(unit 1)
 				)
 			)
