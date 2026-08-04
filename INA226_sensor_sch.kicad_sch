@@ -780,6 +780,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "INA226AIDGSR_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1599,7 +1739,7 @@
 	)
 	(text "MEDIR CORRIENTE CON vin+ vin-\nBUSCAR RESISTENCIA SHUNT\n\n"
 		(exclude_from_sim no)
-		(at 148.59 60.96 0)
+		(at 150.114 56.642 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1648,6 +1788,24 @@
 		(uuid "73108688-27d2-488a-bbd6-ba2adbb27130")
 	)
 	(junction
+		(at 137.16 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "110ad9f8-9f93-42b0-a52d-bff47efdc08e")
+	)
+	(junction
+		(at 137.16 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d478b36-3dac-47f8-a8d7-c32f1f507174")
+	)
+	(junction
+		(at 204.47 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48f72956-eb71-4ccc-a6f2-5f765017ff6a")
+	)
+	(junction
 		(at 100.33 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1659,21 +1817,11 @@
 		(color 0 0 0 0)
 		(uuid "98665b03-fb52-4b50-b406-269c64ae4f80")
 	)
-	(no_connect
-		(at 196.85 69.85)
-		(uuid "622a1c78-13a5-4752-94b0-f918fe9548b1")
-	)
-	(no_connect
-		(at 196.85 72.39)
-		(uuid "a176826e-3420-449c-b401-452130c3ef8c")
-	)
-	(no_connect
-		(at 130.81 72.39)
-		(uuid "a6443740-6c68-45e2-a699-fd4c2dbdffec")
-	)
-	(no_connect
-		(at 130.81 69.85)
-		(uuid "cb9a80d2-9e17-4775-b265-896b37a36f40")
+	(junction
+		(at 204.47 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7e251cb-81a4-4edc-8a0e-6f644ae22dcd")
 	)
 	(wire
 		(pts
@@ -1694,6 +1842,16 @@
 			(type default)
 		)
 		(uuid "073be1b1-82d0-4628-b03f-c715e45dc9b0")
+	)
+	(wire
+		(pts
+			(xy 196.85 64.77) (xy 196.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afa4d77-8050-41ad-905a-bed17ab5e12d")
 	)
 	(wire
 		(pts
@@ -1817,6 +1975,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 72.39) (xy 137.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81293a9d-df37-4222-8606-b2759c4c64e5")
+	)
+	(wire
+		(pts
 			(xy 223.52 87.63) (xy 220.98 87.63)
 		)
 		(stroke
@@ -1834,6 +2002,16 @@
 			(type default)
 		)
 		(uuid "8f74668c-dbf2-44e0-9a3f-ccfec8280d8b")
+	)
+	(wire
+		(pts
+			(xy 204.47 72.39) (xy 217.17 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b8ffbc-85ed-4420-a468-c410ff574462")
 	)
 	(wire
 		(pts
@@ -1877,6 +2055,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 64.77) (xy 135.89 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf11c32b-77d5-4b7c-a21b-6c4c01f723fe")
+	)
+	(wire
+		(pts
 			(xy 130.81 74.93) (xy 134.62 74.93)
 		)
 		(stroke
@@ -1884,6 +2072,16 @@
 			(type default)
 		)
 		(uuid "c8fdebef-9a43-494b-aa54-290840c48e86")
+	)
+	(wire
+		(pts
+			(xy 196.85 64.77) (xy 204.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda1eb39-c703-44fb-a0a8-e50697f296ab")
 	)
 	(wire
 		(pts
@@ -1897,6 +2095,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 72.39) (xy 151.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a4667e-c5a2-4fd0-b216-0d895c0eea50")
+	)
+	(wire
+		(pts
 			(xy 58.42 71.12) (xy 58.42 73.66)
 		)
 		(stroke
@@ -1904,6 +2112,16 @@
 			(type default)
 		)
 		(uuid "dbc68895-3073-4789-bc99-8c82d6e6a886")
+	)
+	(wire
+		(pts
+			(xy 196.85 72.39) (xy 204.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df18c93f-7606-42d7-8dbb-d7ce94fabf08")
 	)
 	(wire
 		(pts
@@ -1954,6 +2172,16 @@
 			(type default)
 		)
 		(uuid "fdb370fe-cb79-4009-8ddf-7e26df1a66e3")
+	)
+	(wire
+		(pts
+			(xy 135.89 64.77) (xy 130.81 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff119487-c3bf-4afc-8a05-e2f0936d7456")
 	)
 	(image
 		(at 92.71 134.62)
@@ -5547,6 +5775,85 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 217.17 72.39 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cc272aa-f413-4ab5-8e13-95b9f985b1ac")
+		(property "Reference" "#PWR0140"
+			(at 217.17 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VINS2+"
+			(at 217.17 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 217.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "443537f0-9b1b-42ba-9c3a-acc69783ccdb")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 153.67 85.09 0)
 		(mirror y)
 		(unit 1)
@@ -5706,6 +6013,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 204.47 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35658c14-a200-46b9-a841-4393882fa080")
+		(property "Reference" "R22"
+			(at 207.01 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6mΩ 2W"
+			(at 207.01 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 202.692 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "C42453982"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19fb05b3-c236-4012-9a56-02c7c67e70c2")
+		)
+		(pin "2"
+			(uuid "9eaa608b-81d7-473c-8049-7c8389413cf1")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 85.09 101.6 0)
 		(unit 1)
@@ -5858,6 +6247,86 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
 					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 151.13 72.39 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49c5ea50-6ee3-4c78-b5ff-001da9de36d3")
+		(property "Reference" "#PWR0139"
+			(at 151.13 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VINS+"
+			(at 151.13 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 151.13 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2423175-9fa4-4a53-ad1e-f88c1baf4bf5")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -6239,6 +6708,86 @@
 		)
 	)
 	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 137.16 64.77 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64d340e4-56ca-42ff-9b51-bb630e909ffb")
+		(property "Reference" "#PWR0137"
+			(at 137.16 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIN+"
+			(at 137.16 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 137.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f1fb24d-511a-4031-8c5b-044f973957ad")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CANSAT_STM32_symbols:RC0603FR-074K7L")
 		(at 220.98 78.74 90)
 		(unit 1)
@@ -6427,6 +6976,88 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7964ab89-3fb8-44c2-984c-796411de00b4")
+		(property "Reference" "R11"
+			(at 139.7 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30mΩ 1W"
+			(at 139.7 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 135.382 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "C5119993"
+			(at 137.16 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24685c73-bf64-4d5e-b577-7c123146e49a")
+		)
+		(pin "2"
+			(uuid "d358d508-fe3f-4cd4-8f9c-eaeb8eda737f")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6960,6 +7591,85 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 204.47 64.77 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c90b2750-cefa-40ba-ab9f-ab893ec5071b")
+		(property "Reference" "#PWR0138"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIN2+"
+			(at 204.47 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 204.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "982f35c7-5d7e-4afa-bba0-779fa2fda35b")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)

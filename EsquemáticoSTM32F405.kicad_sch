@@ -7168,10 +7168,6 @@
 		(uuid "553cf0fd-1cce-4ffb-ace1-8af20e16f61e")
 	)
 	(no_connect
-		(at 247.65 48.26)
-		(uuid "5d6d8c17-27b7-4260-bcec-7634c9e4cf42")
-	)
-	(no_connect
 		(at 302.26 146.05)
 		(uuid "60e3852c-8d62-4a4f-ae26-5691a53c8883")
 	)
@@ -8362,6 +8358,16 @@
 			(type default)
 		)
 		(uuid "d4aed0fc-fae5-4b7e-9e0a-826ff5cc36c9")
+	)
+	(wire
+		(pts
+			(xy 247.65 48.26) (xy 247.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5762855-e026-4479-859e-bded3eee0665")
 	)
 	(wire
 		(pts

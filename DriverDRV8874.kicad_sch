@@ -16489,7 +16489,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN2"
+		(property "Value" "+VINS2"
 			(at 189.23 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18665,7 +18665,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN2"
+		(property "Value" "+VINS2"
 			(at 189.23 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1244,7 +1244,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 80.01) (xy 85.09 82.55)
+			(xy 85.09 80.01) (xy 85.09 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1384,7 +1384,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 90.17) (xy 85.09 95.25)
+			(xy 85.09 93.98) (xy 85.09 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5885,7 +5885,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 86.36 180)
+		(at 85.09 90.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5895,7 +5895,7 @@
 		(dnp no)
 		(uuid "bfc5b8ff-4631-4380-93d6-38a32bb4204c")
 		(property "Reference" "R15"
-			(at 86.36 83.058 0)
+			(at 86.36 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5906,7 +5906,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 87.122 85.09 0)
+			(at 87.122 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5917,7 +5917,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 86.868 86.36 90)
+			(at 86.868 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5928,7 +5928,7 @@
 			)
 		)
 		(property "Datasheet" "C163851"
-			(at 85.09 86.36 0)
+			(at 85.09 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5939,7 +5939,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 86.36 0)
+			(at 85.09 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5950,7 +5950,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 85.09 86.36 90)
+			(at 85.09 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
