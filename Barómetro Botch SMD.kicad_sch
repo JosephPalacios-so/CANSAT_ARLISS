@@ -814,7 +814,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 72.39) (xy 134.62 72.39)
+			(xy 132.08 72.39) (xy 143.51 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4377,6 +4377,26 @@
 			"xEBFEARBEARBEIRW5/8A4CxxLPfDWFYAAAAASUVORK5CYII="
 		)
 	)
+	(label "VDDIO"
+		(at 95.25 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b08a5f6-9947-4fa0-8439-fdd35c21956f")
+	)
+	(label "VDDIO"
+		(at 143.51 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dbe9af5-e338-4b06-a75b-e8dfc060007f")
+	)
 	(global_label "I2C1_SDA"
 		(shape input)
 		(at 109.22 69.85 180)
@@ -4446,84 +4466,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 134.62 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51534c32-a55a-4cbe-834e-96a7bb67800a")
-		(property "Reference" "#PWR068"
-			(at 134.62 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 134.62 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 134.62 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "028bd16f-c573-4545-adb9-197b5f6c83b9")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/9e299f07-4887-409a-8623-587b30453872"
-					(reference "#PWR068")
-					(unit 1)
-				)
 			)
 		)
 	)

@@ -199,160 +199,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CANSAT_STM32_symbols:RC0603FR-074K7L"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "4.7K"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0603"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_4-7KR-472-1_C99782.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0603FR-074K7L"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C99782"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0603FR-074K7L_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -491,6 +337,146 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -1112,6 +1098,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Solo comprar 100nF de sansumg"
+		(exclude_from_sim no)
+		(at 44.45 110.3517 0)
+		(size 35.56 3.9483)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "06598597-f695-4eb0-b1fb-47fe66b83c09")
+	)
 	(text_box "Si Alt_Address: +3v3 \n	-> I2C Address: 0x1D\nSi Alt_Address: GND \n	-> I2C Address: 0x53"
 		(exclude_from_sim no)
 		(at 243.84 90.17 0)
@@ -1228,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 95.25) (xy 53.34 96.52)
+			(xy 49.53 93.98) (xy 49.53 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1298,7 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 85.09) (xy 36.83 87.63)
+			(xy 33.02 83.82) (xy 33.02 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +1354,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 83.82) (xy 77.47 86.36)
+			(xy 69.85 85.09) (xy 69.85 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1364,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 92.71) (xy 36.83 95.25)
+			(xy 33.02 91.44) (xy 33.02 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1384,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 92.71) (xy 85.09 95.25)
+			(xy 85.09 90.17) (xy 85.09 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +1394,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 91.44) (xy 77.47 93.98)
+			(xy 69.85 92.71) (xy 69.85 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +1404,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 83.82) (xy 53.34 85.09)
+			(xy 49.53 82.55) (xy 49.53 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5235,7 +5241,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 53.34 83.82 0)
+		(at 49.53 82.55 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5247,7 +5253,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b3c70fd-fdef-4e03-b43e-e7a7bb9f8a33")
 		(property "Reference" "#PWR0131"
-			(at 53.34 87.63 0)
+			(at 49.53 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5258,7 +5264,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 53.34 78.74 0)
+			(at 49.53 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5268,7 +5274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 83.82 0)
+			(at 49.53 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5279,7 +5285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 83.82 0)
+			(at 49.53 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5290,7 +5296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 53.34 83.82 0)
+			(at 49.53 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5314,7 +5320,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 36.83 90.17 0)
+		(at 33.02 88.9 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5325,7 +5331,7 @@
 		(dnp no)
 		(uuid "2f98e0ac-80a7-41c6-8842-073d8f58ac02")
 		(property "Reference" "C45"
-			(at 34.29 88.138 0)
+			(at 30.48 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5336,7 +5342,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 42.672 92.964 0)
+			(at 38.862 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5347,7 +5353,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 36.83 90.17 0)
+			(at 33.02 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5358,7 +5364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 90.17 0)
+			(at 33.02 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5369,7 +5375,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 36.83 90.17 0)
+			(at 33.02 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5380,7 +5386,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C1590.html"
-			(at 36.83 90.17 0)
+			(at 33.02 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5485,7 +5491,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 95.25 0)
+		(at 33.02 93.98 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5497,7 +5503,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e01a1bb-9cba-4019-86da-b19042141504")
 		(property "Reference" "#PWR0136"
-			(at 36.83 101.6 0)
+			(at 33.02 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +5514,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 100.33 0)
+			(at 33.02 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5518,7 +5524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 95.25 0)
+			(at 33.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5529,7 +5535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 95.25 0)
+			(at 33.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5540,7 +5546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 95.25 0)
+			(at 33.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5564,7 +5570,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 77.47 83.82 0)
+		(at 69.85 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5576,7 +5582,7 @@
 		(fields_autoplaced yes)
 		(uuid "8eb8e841-1a03-4382-b2a3-ed66e77fa52b")
 		(property "Reference" "#PWR0133"
-			(at 77.47 87.63 0)
+			(at 69.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5587,7 +5593,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 77.47 78.74 0)
+			(at 69.85 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5597,7 +5603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 83.82 0)
+			(at 69.85 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,7 +5614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 83.82 0)
+			(at 69.85 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5619,7 +5625,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 77.47 83.82 0)
+			(at 69.85 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5643,7 +5649,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 36.83 85.09 0)
+		(at 33.02 83.82 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5655,7 +5661,7 @@
 		(fields_autoplaced yes)
 		(uuid "a120e29b-3f84-4987-a858-6153332dce3b")
 		(property "Reference" "#PWR0135"
-			(at 36.83 88.9 0)
+			(at 33.02 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5666,7 +5672,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 36.83 80.01 0)
+			(at 33.02 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5676,7 +5682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 85.09 0)
+			(at 33.02 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 85.09 0)
+			(at 33.02 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5698,7 +5704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 36.83 85.09 0)
+			(at 33.02 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5800,7 +5806,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 96.52 0)
+		(at 49.53 95.25 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5812,7 +5818,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf8eb2c7-ef71-4242-8233-225d145e40c6")
 		(property "Reference" "#PWR0132"
-			(at 53.34 102.87 0)
+			(at 49.53 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5823,7 +5829,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 101.6 0)
+			(at 49.53 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5833,7 +5839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 96.52 0)
+			(at 49.53 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5844,7 +5850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 96.52 0)
+			(at 49.53 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5855,7 +5861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 96.52 0)
+			(at 49.53 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5878,8 +5884,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 85.09 86.36 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfc5b8ff-4631-4380-93d6-38a32bb4204c")
+		(property "Reference" "R15"
+			(at 86.36 83.058 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 87.122 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 86.868 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "C163851"
+			(at 85.09 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 85.09 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "446b849a-3083-478b-af53-29ba3a09080c")
+		)
+		(pin "2"
+			(uuid "a60692ab-f6bd-4c65-bb23-50b727e4e007")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/5dc414a7-f6ea-4307-9bff-662079fd3375"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 77.47 93.98 0)
+		(at 69.85 95.25 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5891,7 +5989,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0b16a7d-3dba-4b02-9a22-a428602d51df")
 		(property "Reference" "#PWR0134"
-			(at 77.47 100.33 0)
+			(at 69.85 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5902,7 +6000,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 99.06 0)
+			(at 69.85 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5912,7 +6010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 93.98 0)
+			(at 69.85 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5923,7 +6021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 93.98 0)
+			(at 69.85 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5934,7 +6032,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 93.98 0)
+			(at 69.85 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5957,122 +6055,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CANSAT_STM32_symbols:RC0603FR-074K7L")
-		(at 85.09 87.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d174883c-e761-46ad-a7db-42e68afd6da3")
-		(property "Reference" "R11"
-			(at 86.614 85.598 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33"
-			(at 87.122 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 92.71 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C22978.html?s_z=n_q_C22978&globalKeyword=C22978"
-			(at 95.25 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-074K7L"
-			(at 100.33 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C22978"
-			(at 102.87 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" ""
-			(at 85.09 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "78e54a8c-52a8-4dc6-a7f4-b766cc3f4e07")
-		)
-		(pin "1"
-			(uuid "c2cdbfe2-fc2d-4e80-80e3-ba13839ee4c3")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/5dc414a7-f6ea-4307-9bff-662079fd3375"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 77.47 88.9 0)
+		(at 69.85 90.17 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6083,7 +6067,7 @@
 		(dnp no)
 		(uuid "d90a63b1-23a9-4071-9831-12062123f1fe")
 		(property "Reference" "C42"
-			(at 74.93 86.868 0)
+			(at 67.31 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6094,7 +6078,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 83.312 91.694 0)
+			(at 75.692 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6104,8 +6088,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 77.47 88.9 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6116,7 +6100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 88.9 0)
+			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6127,7 +6111,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 77.47 88.9 0)
+			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6138,7 +6122,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C1590.html"
-			(at 77.47 88.9 0)
+			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6243,7 +6227,7 @@
 	)
 	(symbol
 		(lib_id "CANSAT_STM32_symbols:CL21B106KAYQNNE")
-		(at 53.34 90.17 90)
+		(at 49.53 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6253,7 +6237,7 @@
 		(dnp no)
 		(uuid "f6451a31-53e0-46c3-b262-00504f40d625")
 		(property "Reference" "C27"
-			(at 45.466 88.392 0)
+			(at 41.656 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6263,8 +6247,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CL21B106KAYQNNE"
-			(at 48.514 80.264 0)
+		(property "Value" "10uF"
+			(at 44.958 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6274,8 +6258,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
-			(at 60.96 90.17 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 57.15 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6286,7 +6270,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C3039694.pdf"
-			(at 63.5 90.17 0)
+			(at 59.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6297,7 +6281,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 90.17 0)
+			(at 49.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6308,7 +6292,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 66.04 90.17 0)
+			(at 62.23 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6319,7 +6303,7 @@
 			)
 		)
 		(property "MPN" "CL21B106KAYQNNE"
-			(at 68.58 90.17 0)
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6330,7 +6314,7 @@
 			)
 		)
 		(property "LCSC Part" "C3039694"
-			(at 71.12 90.17 0)
+			(at 67.31 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
