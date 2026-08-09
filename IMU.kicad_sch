@@ -833,12 +833,6 @@
 		(uuid "540c0344-4ee9-40e6-88a6-e3bf03d8ab79")
 	)
 	(junction
-		(at 186.69 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a274f24b-cb48-4ed8-99cd-7e0a8bc483c9")
-	)
-	(junction
 		(at 143.51 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -864,27 +858,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 100.33) (xy 186.69 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12b716e9-14f1-475b-81c2-7a780d52f110")
-	)
-	(wire
-		(pts
-			(xy 180.34 100.33) (xy 186.69 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d68d680-f95b-4635-a799-1fcd0975c082")
-	)
-	(wire
-		(pts
-			(xy 180.34 102.87) (xy 186.69 102.87)
+			(xy 180.34 102.87) (xy 203.2 102.87)
 		)
 		(stroke
 			(width 0)
@@ -901,6 +875,16 @@
 			(type default)
 		)
 		(uuid "35dc7407-8af4-473e-ba7a-fb2e4dcbfe80")
+	)
+	(wire
+		(pts
+			(xy 203.2 102.87) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f46812-69a8-484d-a86e-af8061d017e8")
 	)
 	(wire
 		(pts
@@ -941,16 +925,6 @@
 			(type default)
 		)
 		(uuid "d2651194-39f4-4325-9c2c-d4502805e427")
-	)
-	(wire
-		(pts
-			(xy 191.77 100.33) (xy 186.69 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2e8f8f9-55d9-44b7-82b6-46b1fc694632")
 	)
 	(wire
 		(pts
@@ -9349,6 +9323,30 @@
 			)
 		)
 	)
+	(global_label "WAKE_BNO"
+		(shape input)
+		(at 180.34 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "663ab137-5e0c-4af2-9b27-3c9c8e344aca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.1828 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SPI1_SCLK"
 		(shape input)
 		(at 148.59 115.57 180)
@@ -9924,7 +9922,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 191.77 100.33 0)
+		(at 203.2 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9935,7 +9933,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc863b6f-a0d5-43ee-ac48-a28327261f0f")
 		(property "Reference" "#PWR030"
-			(at 191.77 104.14 0)
+			(at 203.2 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9946,7 +9944,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 191.77 95.25 0)
+			(at 203.2 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9956,7 +9954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 100.33 0)
+			(at 203.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9967,7 +9965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 100.33 0)
+			(at 203.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9978,7 +9976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 191.77 100.33 0)
+			(at 203.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

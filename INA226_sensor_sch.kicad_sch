@@ -1523,6 +1523,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1641,6 +1780,145 @@
 				)
 			)
 			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+BATT"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1972,12 +2250,6 @@
 		(uuid "348639dc-b01f-47de-8696-e7ee98de0798")
 	)
 	(junction
-		(at 135.89 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bc3072e-50dc-45a4-a0aa-ec4e83898fbe")
-	)
-	(junction
 		(at 71.12 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2000,6 +2272,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf2e56ab-29d6-4a22-b28c-41f48b2bfa2b")
+	)
+	(junction
+		(at 135.89 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db875d8c-31bf-47b2-815f-1c5453676716")
 	)
 	(wire
 		(pts
@@ -2103,7 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 59.69) (xy 144.78 59.69)
+			(xy 135.89 59.69) (xy 148.59 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6096,6 +6374,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 217.17 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a8a5b10-2f7a-472a-aa19-8a85bce0d436")
+		(property "Reference" "#PWR0118"
+			(at 217.17 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VIN2P"
+			(at 213.868 60.452 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 217.17 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce96c49c-2147-4c66-9d82-9d432d580ad9")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 120.65 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bcd57c2-0adc-4031-9602-db1b59400792")
+		(property "Reference" "#PWR0107"
+			(at 120.65 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VINP"
+			(at 118.364 47.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 120.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "682d1ebf-b2d3-4cf4-bac9-778d9f4ff4ea")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 58.42 270)
 		(unit 1)
@@ -6266,8 +6700,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "346310bf-7f0a-4150-9c2d-5dc6ad0e9110")
-		(property "Reference" "#PWR0118"
+		(uuid "3a8990cb-bb98-43c2-bbb8-e72ff412c986")
+		(property "Reference" "#PWR0144"
 			(at 101.6 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6278,7 +6712,7 @@
 				)
 			)
 		)
-		(property "Value" "VIN+"
+		(property "Value" "VINS+"
 			(at 109.22 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6323,12 +6757,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b94d17f-ee80-47db-8447-3e86aca6aba4")
+			(uuid "9cda6fe1-bc54-4581-9733-d7ae2d6eceb2")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
-					(reference "#PWR0118")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -6495,7 +6929,7 @@
 	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
-		(at 144.78 59.69 0)
+		(at 148.59 59.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6507,7 +6941,7 @@
 		(fields_autoplaced yes)
 		(uuid "49c5ea50-6ee3-4c78-b5ff-001da9de36d3")
 		(property "Reference" "#PWR0139"
-			(at 144.78 63.5 0)
+			(at 148.59 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6518,7 +6952,7 @@
 			)
 		)
 		(property "Value" "VINS+"
-			(at 144.78 54.61 0)
+			(at 148.59 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6528,7 +6962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 59.69 0)
+			(at 148.59 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6539,7 +6973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 59.69 0)
+			(at 148.59 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6550,7 +6984,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 144.78 59.69 0)
+			(at 148.59 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6942,86 +7376,6 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
 					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_1")
-		(lib_id "power:+3V3")
-		(at 120.65 52.07 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64d340e4-56ca-42ff-9b51-bb630e909ffb")
-		(property "Reference" "#PWR0137"
-			(at 120.65 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VIN+"
-			(at 120.65 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 120.65 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7f1fb24d-511a-4031-8c5b-044f973957ad")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
-					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -7787,85 +8141,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 241.3 72.39 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93ab9b95-eb70-4bef-b71e-43388868606a")
-		(property "Reference" "#PWR0140"
-			(at 241.3 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VINS2+"
-			(at 241.3 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 241.3 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "720fb50a-6c3d-4b39-9c08-270f1e810727")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
-					(reference "#PWR0140")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 166.37 107.95 0)
 		(unit 1)
@@ -8190,85 +8465,6 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 217.17 64.77 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd5d0e51-61d8-4ec9-9d2f-285db343d3b7")
-		(property "Reference" "#PWR0138"
-			(at 217.17 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VIN2+"
-			(at 217.17 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 217.17 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f2df2e5-13b7-4c42-a087-55792521459c")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
-					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -8676,6 +8872,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 198.12 74.93 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0a1e2fc-7eb2-408b-bf48-3d8163d3f764")
+		(property "Reference" "#PWR0145"
+			(at 194.31 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VINS2+"
+			(at 201.93 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 198.12 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9139ef6f-ed4b-404f-9f49-9cc6b24fdd86")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 64.77 90)
 		(unit 1)
@@ -8847,9 +9123,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 198.12 74.93 270)
-		(mirror x)
+		(lib_id "power:+3.3V")
+		(at 241.3 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8858,9 +9133,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe95861c-55cf-4c4f-a0fa-4d76cf08748e")
-		(property "Reference" "#PWR0123"
-			(at 194.31 74.93 0)
+		(uuid "fc22892c-eabd-4f6a-bdc2-3fdd8fea4b24")
+		(property "Reference" "#PWR0138"
+			(at 241.3 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8870,19 +9145,18 @@
 				)
 			)
 		)
-		(property "Value" "VIN2+"
-			(at 201.93 74.9299 90)
+		(property "Value" "+11.1V"
+			(at 241.3 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 74.93 0)
+			(at 241.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8893,7 +9167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 74.93 0)
+			(at 241.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8903,8 +9177,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 198.12 74.93 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 241.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8915,12 +9189,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ea2c687-1848-4c54-81fb-ed2b475ebc7f")
+			(uuid "9dbbc79b-4d3e-48ab-a3af-7b3e7e5de706")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
-					(reference "#PWR0123")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)

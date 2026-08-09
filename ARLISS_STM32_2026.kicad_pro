@@ -1140,7 +1140,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "R22-27,C46-47,#PWR138,#PWR140,#PWR142-144",
+    "used_designators": "RIPROPI3,#PWR123,#PWR137-138,#PWR140,#PWR146-148,R16,LED6",
     "variants": []
   },
   "sheets": [

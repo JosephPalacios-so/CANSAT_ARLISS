@@ -7168,10 +7168,6 @@
 		(uuid "553cf0fd-1cce-4ffb-ace1-8af20e16f61e")
 	)
 	(no_connect
-		(at 302.26 146.05)
-		(uuid "60e3852c-8d62-4a4f-ae26-5691a53c8883")
-	)
-	(no_connect
 		(at 302.26 179.07)
 		(uuid "67f8fb1f-262c-4f5c-9498-241e432610cb")
 	)
@@ -16210,6 +16206,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "WAKE_BNO"
+		(shape input)
+		(at 302.26 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a7a3490-0877-4611-b6f5-5687f0da908a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 315.1028 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
