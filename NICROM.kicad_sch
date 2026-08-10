@@ -1422,6 +1422,26 @@
 		)
 		(uuid "f9331e89-a2fd-4eac-a16b-e3819ae8ad1f")
 	)
+	(text_box "Cambio probable a C878812\nR 100k->1M "
+		(exclude_from_sim no)
+		(at 55.88 59.69 0)
+		(size 36.83 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b973d13e-c37b-4fe9-96f7-3a136a9be681")
+	)
 	(junction
 		(at 129.54 121.92)
 		(diameter 0)
@@ -3943,7 +3963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ARLISS-footprints:TO-220-3_L10.0-W4.5-P2.54-T"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 135.89 111.76 0)
 			(hide yes)
 			(show_name no)

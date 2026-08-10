@@ -16156,7 +16156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SMB_L4.6-W3.6-LS5.3-BI"
+		(property "Footprint" "ARLISS-footprints:SMB_L4.6-W3.6-LS5.3-BI"
 			(at 217.17 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -18215,7 +18215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SMB_L4.6-W3.6-LS5.3-BI"
+		(property "Footprint" "ARLISS-footprints:SMB_L4.6-W3.6-LS5.3-BI"
 			(at 214.63 143.51 0)
 			(hide yes)
 			(show_name no)
