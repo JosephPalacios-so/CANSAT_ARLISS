@@ -3447,145 +3447,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+BATT"
 			(power global)
 			(pin_numbers
@@ -3891,16 +3752,6 @@
 		)
 		(uuid "dd530f77-7ea4-43b3-b38c-1c4091a1ab84")
 	)
-	(text ""
-		(exclude_from_sim no)
-		(at 47.498 58.928 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e8a27095-1525-4da8-88c9-b49dc1aee605")
-	)
 	(text_box "Bypass de emergencia"
 		(exclude_from_sim no)
 		(at 38.1 91.3017 0)
@@ -3941,10 +3792,10 @@
 		)
 		(uuid "6a025b4e-fa3e-4ce9-a77c-dd3720e99450")
 	)
-	(text_box "Reverse polarity + PTC"
+	(text_box "Reverse polarity + fusible"
 		(exclude_from_sim no)
 		(at 128.27 15.1017 0)
-		(size 25.4 3.9483)
+		(size 27.94 3.9483)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3960,26 +3811,6 @@
 			(justify left top)
 		)
 		(uuid "8e36f3ef-772b-44bb-b566-d242f0cc83f5")
-	)
-	(text_box "Agregar el diodo schottky - SK34WA C122863"
-		(exclude_from_sim no)
-		(at 41.91 20.1817 0)
-		(size 48.26 3.9483)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "92986f5c-7d8b-4e72-abe6-a9cce0596436")
 	)
 	(text_box "Resistor entre VSET/FB con GND"
 		(exclude_from_sim no)
@@ -4175,7 +4006,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 36.83) (xy 233.68 35.56)
+			(xy 217.17 35.56) (xy 217.17 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4215,7 +4046,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 36.83) (xy 250.19 38.1)
+			(xy 233.68 35.56) (xy 233.68 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4405,7 +4236,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 34.29) (xy 267.97 36.83)
+			(xy 251.46 33.02) (xy 251.46 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4695,7 +4526,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 36.83) (xy 219.71 35.56)
+			(xy 203.2 35.56) (xy 203.2 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8750,6 +8581,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 217.17 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1579c7e8-6f69-486f-b702-28b6657e42e9")
+		(property "Reference" "#PWR0111"
+			(at 217.17 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+11.1V"
+			(at 217.17 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 217.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38249268-e595-45d6-85e1-74c5b0d97012")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/8549a18f-8dc0-4c64-a4df-732ef1c8a382"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 35.56 73.66 0)
 		(unit 1)
@@ -9836,7 +9745,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 267.97 36.83 0)
+		(at 251.46 35.56 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9848,7 +9757,7 @@
 		(fields_autoplaced yes)
 		(uuid "5897f71e-bc32-4a12-8161-d7d4210b3d46")
 		(property "Reference" "TP4"
-			(at 265.43 38.8619 0)
+			(at 248.92 37.5919 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9859,7 +9768,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 265.43 41.4019 0)
+			(at 248.92 40.1319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9870,7 +9779,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 273.05 36.83 0)
+			(at 256.54 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9881,7 +9790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 36.83 0)
+			(at 256.54 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9892,7 +9801,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 267.97 36.83 0)
+			(at 251.46 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9903,7 +9812,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 267.97 36.83 0)
+			(at 251.46 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9970,7 +9879,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C258782.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FAVZVQVUQwBdXgAARFhXAlACTwRaVVUARlRWX11XR1cxVlNeRVBZV1dXRlVaXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C342717.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.16.xh&lcsc_vid=RwVXU10EEVNfXwFXR1YPUQACRQNYVwZRFVZWUVEDQQQxVlNeQVJaV1ZfT1lZXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVZYVVFfQ08GEwkK"
 			(at 190.5 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9992,7 +9901,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BC81C226ME44L"
+		(property "MPN" "C2012X7S1A226MT000E"
 			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10003,7 +9912,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C258782"
+		(property "LCSC Part" "C342717"
 			(at 198.12 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10233,7 +10142,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 233.68 35.56 0)
+		(at 217.17 34.29 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10245,7 +10154,7 @@
 		(fields_autoplaced yes)
 		(uuid "674ca308-caf3-4676-a3d9-90b62aef50d1")
 		(property "Reference" "TP1"
-			(at 236.22 33.5281 0)
+			(at 219.71 32.2581 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10256,7 +10165,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 236.22 30.9881 0)
+			(at 219.71 29.7181 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10267,7 +10176,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 228.6 35.56 0)
+			(at 212.09 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10278,7 +10187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 35.56 0)
+			(at 212.09 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10289,7 +10198,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 233.68 35.56 0)
+			(at 217.17 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10300,7 +10209,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 233.68 35.56 0)
+			(at 217.17 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10555,7 +10464,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 250.19 36.83 0)
+		(at 233.68 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10566,7 +10475,7 @@
 		(fields_autoplaced yes)
 		(uuid "74ad29ad-ab99-455c-b56f-57c1d809a44d")
 		(property "Reference" "TP3"
-			(at 252.73 32.2579 0)
+			(at 236.22 30.9879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10577,7 +10486,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 252.73 34.7979 0)
+			(at 236.22 33.5279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10588,7 +10497,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 255.27 36.83 0)
+			(at 238.76 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10599,7 +10508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 36.83 0)
+			(at 238.76 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10610,7 +10519,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 250.19 36.83 0)
+			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10621,7 +10530,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 250.19 36.83 0)
+			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10638,6 +10547,84 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/8549a18f-8dc0-4c64-a4df-732ef1c8a382"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 251.46 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74fb43e2-f231-41b1-a3b0-1095bdee4100")
+		(property "Reference" "#PWR0103"
+			(at 251.46 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 251.46 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 251.46 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e0f2d05-d044-4133-bed0-b63c840773a3")
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/8549a18f-8dc0-4c64-a4df-732ef1c8a382"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -11035,7 +11022,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 38.1 0)
+		(at 233.68 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11046,7 +11033,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d400a96-351f-4800-a35b-03575e4428ec")
 		(property "Reference" "#PWR0100"
-			(at 250.19 44.45 0)
+			(at 233.68 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11057,7 +11044,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 43.18 0)
+			(at 233.68 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11067,7 +11054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 38.1 0)
+			(at 233.68 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11078,7 +11065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 38.1 0)
+			(at 233.68 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11089,7 +11076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 38.1 0)
+			(at 233.68 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12575,85 +12562,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 267.97 34.29 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b64bbecf-1c40-46e4-87b4-0da7da6277ac")
-		(property "Reference" "#PWR0103"
-			(at 267.97 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 267.97 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 267.97 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26eede0d-65c7-4e2e-8212-1e446a372b1d")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/8549a18f-8dc0-4c64-a4df-732ef1c8a382"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 140.97 26.67 0)
 		(unit 1)
@@ -12890,7 +12798,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 219.71 36.83 180)
+		(at 203.2 35.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12901,7 +12809,7 @@
 		(fields_autoplaced yes)
 		(uuid "c151c50f-1649-4790-aefb-abc42ccced9e")
 		(property "Reference" "#PWR097"
-			(at 219.71 33.02 0)
+			(at 203.2 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12912,7 +12820,7 @@
 			)
 		)
 		(property "Value" "+VIN"
-			(at 219.71 41.91 0)
+			(at 203.2 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12922,7 +12830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 36.83 0)
+			(at 203.2 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12933,7 +12841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 36.83 0)
+			(at 203.2 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12944,7 +12852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 219.71 36.83 0)
+			(at 203.2 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13189,85 +13097,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 233.68 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0085a0e-1f6b-4ba9-aa73-907d3a13b1e8")
-		(property "Reference" "#PWR096"
-			(at 233.68 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VIN2"
-			(at 236.22 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 233.68 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d128346-014b-49f5-83ff-c71de4e8b6f9")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/8549a18f-8dc0-4c64-a4df-732ef1c8a382"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 134.62 114.3 0)
 		(unit 1)
@@ -13425,7 +13254,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 219.71 35.56 0)
+		(at 203.2 34.29 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13437,7 +13266,7 @@
 		(fields_autoplaced yes)
 		(uuid "e129eb9c-bc10-4af2-bf46-020341dd45b1")
 		(property "Reference" "TP2"
-			(at 222.25 33.5281 0)
+			(at 205.74 32.2581 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13448,7 +13277,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 222.25 30.9881 0)
+			(at 205.74 29.7181 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13459,7 +13288,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 214.63 35.56 0)
+			(at 198.12 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13470,7 +13299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 35.56 0)
+			(at 198.12 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13481,7 +13310,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 219.71 35.56 0)
+			(at 203.2 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13492,7 +13321,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 219.71 35.56 0)
+			(at 203.2 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13909,7 +13738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2342483-f523-440b-9923-92ada6e34e70")
-		(property "Reference" "RIPROPI3"
+		(property "Reference" "R4"
 			(at 135.128 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13995,7 +13824,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/8549a18f-8dc0-4c64-a4df-732ef1c8a382"
-					(reference "RIPROPI3")
+					(reference "R4")
 					(unit 1)
 				)
 			)

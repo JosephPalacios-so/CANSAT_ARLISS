@@ -791,6 +791,12 @@
 		(uuid "72779c8e-6fb4-49fa-b67a-12988b61464f")
 	)
 	(junction
+		(at 95.25 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b06c6613-fe7d-47aa-ab29-a3ff680c7a69")
+	)
+	(junction
 		(at 132.08 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -814,7 +820,37 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 72.39) (xy 143.51 72.39)
+			(xy 95.25 60.96) (xy 95.25 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b76344-b5a9-4212-b75f-3dde33088274")
+	)
+	(wire
+		(pts
+			(xy 142.24 72.39) (xy 132.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384dbe93-8051-4117-8a38-a199b200c206")
+	)
+	(wire
+		(pts
+			(xy 142.24 83.82) (xy 142.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55203c93-debb-4e2c-88a1-05f5195425da")
+	)
+	(wire
+		(pts
+			(xy 142.24 83.82) (xy 146.05 83.82)
 		)
 		(stroke
 			(width 0)
@@ -884,13 +920,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 62.23) (xy 109.22 62.23)
+			(xy 82.55 62.23) (xy 95.25 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dcb1cc2e-9d6f-450b-9107-2fa261f1fba0")
+	)
+	(wire
+		(pts
+			(xy 95.25 62.23) (xy 109.22 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea3e0b8-6a99-46f3-a611-50e6efcb2df3")
 	)
 	(image
 		(at 226.06 146.05)
@@ -4378,7 +4424,7 @@
 		)
 	)
 	(label "VDDIO"
-		(at 95.25 62.23 0)
+		(at 95.25 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4388,7 +4434,7 @@
 		(uuid "1b08a5f6-9947-4fa0-8439-fdd35c21956f")
 	)
 	(label "VDDIO"
-		(at 143.51 72.39 0)
+		(at 146.05 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
