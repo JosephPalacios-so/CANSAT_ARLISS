@@ -1140,7 +1140,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "D1,#PWR96,#PWR158-160,TP5",
+    "used_designators": "D1,#PWR92,#PWR96,#PWR158-164,TP5,JP1-4,R32-33,LED7-8",
     "variants": []
   },
   "sheets": [
