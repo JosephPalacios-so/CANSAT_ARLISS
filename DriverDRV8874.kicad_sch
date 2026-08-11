@@ -15227,7 +15227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d70c159-aa93-490d-b006-b25cc08f429e")
-		(property "Reference" "RIMODE2"
+		(property "Reference" "RIM2"
 			(at 265.43 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15313,7 +15313,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "RIMODE2")
+					(reference "RIM2")
 					(unit 1)
 				)
 			)
@@ -15953,7 +15953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dc5a9d0-6b7e-42c2-989e-a8c50fee293b")
-		(property "Reference" "RIPROPI2"
+		(property "Reference" "RIPR2"
 			(at 138.938 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16039,7 +16039,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "RIPROPI2")
+					(reference "RIPR2")
 					(unit 1)
 				)
 			)
@@ -16985,7 +16985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83d10566-3922-410e-99d5-65cb81dbe585")
-		(property "Reference" "RIPROPI1"
+		(property "Reference" "RIPR1"
 			(at 138.938 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17071,7 +17071,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "RIPROPI1")
+					(reference "RIPR1")
 					(unit 1)
 				)
 			)
@@ -17934,7 +17934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a201f283-183e-4bc9-8835-a10dcfab3116")
-		(property "Reference" "RIMODE1"
+		(property "Reference" "RIM1"
 			(at 260.35 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18020,7 +18020,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/4b4c1a4f-7753-466f-b706-7dda6e0dceb5"
-					(reference "RIMODE1")
+					(reference "RIM1")
 					(unit 1)
 				)
 			)
