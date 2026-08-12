@@ -1140,7 +1140,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR93,#PWR169",
     "variants": []
   },
   "sheets": [
@@ -1169,10 +1169,6 @@
       "VEML 7700 Sheet"
     ],
     [
-      "8549a18f-8dc0-4c64-a4df-732ef1c8a382",
-      "Alimentacion"
-    ],
-    [
       "5dc414a7-f6ea-4307-9bff-662079fd3375",
       "Acelerómetro"
     ],
@@ -1183,6 +1179,10 @@
     [
       "ab32e2f2-c1ef-4371-b792-79aca0b2219e",
       "Current_sensor"
+    ],
+    [
+      "efeb48d2-be8c-4c47-a263-81c8c7c61051",
+      "POWER"
     ]
   ],
   "text_variables": {},

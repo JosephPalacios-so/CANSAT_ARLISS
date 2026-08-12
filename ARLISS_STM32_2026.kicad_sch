@@ -858,52 +858,6 @@
 		)
 	)
 	(sheet
-		(at 116.84 73.66)
-		(size 40.64 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "8549a18f-8dc0-4c64-a4df-732ef1c8a382")
-		(property "Sheetname" "Alimentacion"
-			(at 116.84 72.9484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "POWER_V.kicad_sch"
-			(at 116.84 99.6446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 77.47 115.57)
 		(size 16.51 12.7)
 		(exclude_from_sim no)
@@ -1039,6 +993,52 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 72.39)
+		(size 44.45 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "efeb48d2-be8c-4c47-a263-81c8c7c61051")
+		(property "Sheetname" "POWER"
+			(at 110.49 71.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentacion_V2.kicad_sch"
+			(at 110.49 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ARLISS_STM32_2026"
+				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f"
+					(page "11")
 				)
 			)
 		)
