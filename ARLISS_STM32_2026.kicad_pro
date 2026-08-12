@@ -864,7 +864,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
@@ -1140,7 +1140,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "#PWR123,#PWR161,R16,R34,JP4,TP6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
