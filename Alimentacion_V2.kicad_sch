@@ -2406,7 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 57.15) (xy 167.64 54.61)
+			(xy 167.64 55.88) (xy 167.64 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3131,9 +3131,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2043456f-6655-42b6-a881-27e241236fb5")
-		(property "Reference" "TP12"
+		(property "Reference" "TP4"
 			(at 215.9 50.0379 0)
 			(hide yes)
 			(show_name no)
@@ -3179,7 +3178,7 @@
 			)
 		)
 		(property "Description" "GND"
-			(at 213.36 54.61 0)
+			(at 213.36 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3205,7 +3204,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
-					(reference "TP12")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -3869,7 +3868,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 167.64 57.15 0)
+		(at 167.64 55.88 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3881,7 +3880,7 @@
 		(fields_autoplaced yes)
 		(uuid "68aed8ec-90c9-4477-83e4-d885b807ab13")
 		(property "Reference" "#PWR0179"
-			(at 167.64 53.34 0)
+			(at 167.64 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3892,7 +3891,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 167.64 62.23 0)
+			(at 167.64 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3902,7 +3901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 57.15 0)
+			(at 167.64 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +3912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 57.15 0)
+			(at 167.64 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3923,9 +3922,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 167.64 57.15 0)
-			(hide yes)
+		(property "Description" "3V3"
+			(at 167.64 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4230,10 +4228,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7fc9199d-00eb-4111-aa44-85d3c9a95e70")
-		(property "Reference" "TP10"
+		(property "Reference" "TP3"
 			(at 198.12 50.0379 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4277,8 +4275,7 @@
 			)
 		)
 		(property "Description" "GND"
-			(at 195.58 54.61 0)
-			(hide yes)
+			(at 195.58 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4304,7 +4301,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
-					(reference "TP10")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -4321,10 +4318,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86d1ead2-5bb6-4f81-aa6f-6fa13d0fa19e")
-		(property "Reference" "TP9"
+		(property "Reference" "TP2"
 			(at 182.88 52.5781 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4368,7 +4365,7 @@
 			)
 		)
 		(property "Description" "11.1V"
-			(at 180.34 54.61 0)
+			(at 180.34 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4394,7 +4391,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
-					(reference "TP9")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4838,8 +4835,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a85fb313-ea7d-47a8-bb2c-1a92199f4134")
-		(property "Reference" "TP11"
+		(property "Reference" "TP1"
 			(at 170.434 48.514 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4850,7 +4848,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 170.434 45.974 0)
+			(at 172.212 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4910,7 +4908,7 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
-					(reference "TP11")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
