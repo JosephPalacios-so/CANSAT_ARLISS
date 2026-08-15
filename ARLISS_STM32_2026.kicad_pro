@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.999998,
-          "height": 1.6,
-          "width": 1.6
+          "drill": 1.100024,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": true,
@@ -593,7 +593,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -610,7 +610,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.4,
+        "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.1,
@@ -625,7 +625,7 @@
         "via_drill": 0.6
       },
       {
-        "clearance": 0.4,
+        "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.1,
@@ -659,7 +659,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.425,
+        "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -713,7 +713,7 @@
       },
       {
         "bus_width": 24,
-        "clearance": 0.6,
+        "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -749,7 +749,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -857,6 +857,10 @@
       {
         "netclass": "GPIO",
         "pattern": "/CORE*"
+      },
+      {
+        "netclass": "BAT1",
+        "pattern": "+BATT*"
       }
     ]
   },
@@ -1140,7 +1144,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "CN3",
+    "used_designators": "CN3,F1-2,R11,R22,#PWR127-128,#PWR138-139,#PWR142-143",
     "variants": []
   },
   "sheets": [
