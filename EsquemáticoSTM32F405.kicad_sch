@@ -7463,6 +7463,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 154.94) (xy 396.24 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eeb6390-6e1a-44ef-b715-4f34be75cb64")
+	)
+	(wire
+		(pts
 			(xy 101.6 58.42) (xy 107.95 58.42)
 		)
 		(stroke
@@ -8303,7 +8313,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 152.4) (xy 378.46 152.4)
+			(xy 368.3 152.4) (xy 370.84 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8583,7 +8593,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 152.4) (xy 403.86 152.4)
+			(xy 391.16 152.4) (xy 396.24 152.4)
 		)
 		(stroke
 			(width 0)
@@ -16170,7 +16180,7 @@
 		(uuid "3ad3ce8a-abcf-4c95-b2bb-0c3fe086f258")
 	)
 	(label "TX2"
-		(at 375.92 152.4 180)
+		(at 368.3 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16190,7 +16200,7 @@
 		(uuid "5d25324c-e300-43a9-98a2-671f1bbd7fb9")
 	)
 	(label "RX2"
-		(at 403.86 152.4 180)
+		(at 396.24 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16318,6 +16328,16 @@
 			(justify left bottom)
 		)
 		(uuid "f1ab3086-ea7c-49a4-9582-4e4b92e97615")
+	)
+	(label "RADXA_PIN"
+		(at 396.24 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "faeabd83-d51c-4a2f-a506-676583904527")
 	)
 	(global_label "SPI2_MOSI"
 		(shape input)
@@ -18868,7 +18888,7 @@
 	)
 	(symbol
 		(lib_id "CANSAT_STM32_symbols:0430450400")
-		(at 388.62 153.67 0)
+		(at 381 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18879,7 +18899,7 @@
 		(fields_autoplaced yes)
 		(uuid "697b5158-0c9f-414d-a37f-6fd62e6ac025")
 		(property "Reference" "CN4"
-			(at 388.62 144.78 0)
+			(at 381 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18889,7 +18909,7 @@
 			)
 		)
 		(property "Value" "0430450400"
-			(at 388.62 147.32 0)
+			(at 381 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18899,7 +18919,7 @@
 			)
 		)
 		(property "Footprint" "ARLISS-footprints:CONN-TH_0430450400"
-			(at 388.62 162.56 0)
+			(at 381 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18910,7 +18930,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Connectors_MOLEX_0430450400_Connectors-4Contacts-plug-3mm-welding-2_C122413.html"
-			(at 388.62 165.1 0)
+			(at 381 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18921,7 +18941,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 388.62 153.67 0)
+			(at 381 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18932,7 +18952,7 @@
 			)
 		)
 		(property "Manufacturer" "MOLEX"
-			(at 388.62 167.64 0)
+			(at 381 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18943,7 +18963,7 @@
 			)
 		)
 		(property "MPN" "0430450400"
-			(at 388.62 170.18 0)
+			(at 381 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18954,7 +18974,7 @@
 			)
 		)
 		(property "LCSC Part" "C122413"
-			(at 388.62 172.72 0)
+			(at 381 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18980,84 +19000,6 @@
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/55efcca8-1297-47b0-ad35-b3f1b6f19299"
 					(reference "CN4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 398.78 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "720ca81c-6b43-4490-ab84-e779034d112d")
-		(property "Reference" "#PWR088"
-			(at 398.78 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 398.78 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 398.78 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42ddbb84-5d88-4b39-bf8e-3e4ba7df723c")
-		)
-		(instances
-			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/55efcca8-1297-47b0-ad35-b3f1b6f19299"
-					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -19526,7 +19468,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 378.46 154.94 0)
+		(at 370.84 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19537,7 +19479,7 @@
 		(fields_autoplaced yes)
 		(uuid "81a1ceaf-78f4-48cc-8309-896e44039e5e")
 		(property "Reference" "#PWR090"
-			(at 378.46 161.29 0)
+			(at 370.84 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19548,7 +19490,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 378.46 160.02 0)
+			(at 370.84 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19558,7 +19500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 378.46 154.94 0)
+			(at 370.84 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19569,7 +19511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 378.46 154.94 0)
+			(at 370.84 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19580,7 +19522,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 378.46 154.94 0)
+			(at 370.84 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

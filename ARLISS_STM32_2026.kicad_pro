@@ -1144,7 +1144,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "CN3,F1-2,R11,R22,#PWR127-128,#PWR138-139,#PWR142-143",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
