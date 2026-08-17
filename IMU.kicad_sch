@@ -8,145 +8,6 @@
 		(company "TOMEK TEAM")
 	)
 	(lib_symbols
-		(symbol "+3.3V_1"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR028"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1_1"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "4754:4754"
 			(pin_names
 				(offset 1.016)
@@ -866,13 +727,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 95.25) (xy 149.86 95.25)
+			(xy 137.16 95.25) (xy 149.86 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0da6d3d7-b8f0-440a-b52c-4edb79593dbb")
+		(uuid "246de72c-895b-4818-a962-e9fefcded462")
 	)
 	(wire
 		(pts
@@ -933,16 +794,6 @@
 			(type default)
 		)
 		(uuid "a57f0105-c91d-4f33-bb24-6ee1912ec34c")
-	)
-	(wire
-		(pts
-			(xy 143.51 93.98) (xy 143.51 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2651194-39f4-4325-9c2c-d4502805e427")
 	)
 	(wire
 		(pts
@@ -9783,9 +9634,9 @@
 		)
 	)
 	(symbol
-		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 143.51 93.98 0)
+		(at 137.16 95.25 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9794,9 +9645,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9fed6543-0bc6-46c4-90f7-01f8a4829f3a")
-		(property "Reference" "#PWR028"
-			(at 143.51 97.79 0)
+		(uuid "b8a6a077-4636-4ce2-9716-22bc90a6c0b9")
+		(property "Reference" "#PWR0181"
+			(at 137.16 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9807,7 +9658,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 143.51 88.9 0)
+			(at 137.16 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9817,7 +9668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 93.98 0)
+			(at 137.16 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9828,7 +9679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 93.98 0)
+			(at 137.16 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9838,9 +9689,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 143.51 93.98 0)
-			(hide yes)
+		(property "Description" "3V3"
+			(at 137.16 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9850,12 +9700,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0c65cb9-dfae-4129-9883-23a77e1c5ca4")
+			(uuid "cb53c0d9-e3ea-4e2d-82ee-fe186446dee4")
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/243e1b39-32df-463e-8f3d-bc06fe39ea80"
-					(reference "#PWR028")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)

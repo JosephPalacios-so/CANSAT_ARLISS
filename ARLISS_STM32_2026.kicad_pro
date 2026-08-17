@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.100024,
-          "height": 1.8,
-          "width": 1.8
+          "drill": 0.95,
+          "height": 1.95,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": true,
@@ -224,6 +224,7 @@
         0.15,
         0.2,
         0.3,
+        0.4,
         0.5,
         1.0,
         1.5
@@ -258,6 +259,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
           "diameter": 0.65,
@@ -861,6 +866,10 @@
       {
         "netclass": "BAT1",
         "pattern": "+BATT*"
+      },
+      {
+        "netclass": "BOOT",
+        "pattern": "INT1_ADXL"
       }
     ]
   },
@@ -1144,7 +1153,7 @@
         "uuid": "9719ea46-14c4-4409-9c57-49dd5454c03f"
       }
     ],
-    "used_designators": "#PWR160",
+    "used_designators": "#PWR34-35,#PWR181",
     "variants": []
   },
   "sheets": [
