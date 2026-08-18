@@ -8159,10 +8159,6 @@
 		)
 		(instances
 			(project "ARLISS_STM32_2026"
-				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/243e1b39-32df-463e-8f3d-bc06fe39ea80"
-					(reference "U10")
-					(unit 1)
-				)
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/ab32e2f2-c1ef-4371-b792-79aca0b2219e"
 					(reference "U10")
 					(unit 1)
