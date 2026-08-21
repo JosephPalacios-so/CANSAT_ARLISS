@@ -7450,16 +7450,16 @@
 		(uuid "fee5a48f-723c-45ea-850d-a0d505849f44")
 	)
 	(no_connect
+		(at 302.26 143.51)
+		(uuid "0a282bd6-fa41-4dbd-878e-4ad739f087bf")
+	)
+	(no_connect
 		(at 256.54 212.09)
 		(uuid "0e342e85-6b5b-42b0-b377-83b6f45883ee")
 	)
 	(no_connect
 		(at 256.54 209.55)
 		(uuid "553cf0fd-1cce-4ffb-ace1-8af20e16f61e")
-	)
-	(no_connect
-		(at 302.26 179.07)
-		(uuid "67f8fb1f-262c-4f5c-9498-241e432610cb")
 	)
 	(no_connect
 		(at 12.7 106.68)
@@ -7480,10 +7480,6 @@
 	(no_connect
 		(at 217.17 12.7)
 		(uuid "de414e36-8fb1-4207-91a3-248879b16ea3")
-	)
-	(no_connect
-		(at 302.26 143.51)
-		(uuid "ed0b4ff8-e5d4-4e84-ae72-3d9bee5ff87d")
 	)
 	(wire
 		(pts
@@ -8334,6 +8330,16 @@
 			(type default)
 		)
 		(uuid "a0f714ec-708e-492f-9cb4-0d8452f018f6")
+	)
+	(wire
+		(pts
+			(xy 302.26 179.07) (xy 307.34 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b79d58-df20-4845-b087-311918a0b50f")
 	)
 	(wire
 		(pts
@@ -16423,6 +16429,16 @@
 		)
 		(uuid "aa46af3a-cf51-4448-a39b-164fa1f679f2")
 	)
+	(label "RADXA_PIN"
+		(at 307.34 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b296fd16-a117-46e5-9990-29cb17484d90")
+	)
 	(label "SWCLK"
 		(at 101.6 58.42 0)
 		(effects
@@ -20269,7 +20285,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.66 138.43 90)
+		(at 327.66 138.43 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20279,7 +20295,7 @@
 		(dnp no)
 		(uuid "8cc7a5c7-fa5d-4986-bea0-6fecd20c7445")
 		(property "Reference" "#PWR020"
-			(at 334.01 138.43 0)
+			(at 327.66 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20290,7 +20306,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.914 141.224 0)
+			(at 330.454 138.176 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

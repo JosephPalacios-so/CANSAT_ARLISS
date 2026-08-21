@@ -19633,7 +19633,18 @@
 				)
 			)
 		)
-		(property "Field7" ""
+		(property "LCSC" "C144397"
+			(at 124.46 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LINK" "https://www.lcsc.com/datasheet/C144397.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.10.xh&lcsc_vid=T1RYXlBeQ1NXVVRQElQIBgFfEVVfUlADQlYNVlEFRFIxVlNeQFNaUFBRRFZeVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
