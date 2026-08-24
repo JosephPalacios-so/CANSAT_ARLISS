@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -953,7 +953,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -971,7 +971,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
           "show": true
@@ -1067,21 +1067,15 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Link",
-          "name": "Link",
           "show": true
         },
         {
@@ -1095,6 +1089,12 @@
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "LINK",
+          "show": true
         }
       ],
       "filter_string": "",

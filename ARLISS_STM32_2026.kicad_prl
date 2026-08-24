@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 4,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -23,11 +23,11 @@
       "keepouts": false,
       "lockedItems": true,
       "otherItems": false,
-      "pads": false,
-      "text": true,
-      "tracks": false,
-      "vias": false,
-      "zones": false
+      "pads": true,
+      "text": false,
+      "tracks": true,
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       "vias",
@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "00000000_00000000_00000002_2200888c",
+    "visible_layers": "00000000_00000000_00000002_2200888d",
     "zone_display_mode": 0
   },
   "git": {

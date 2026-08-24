@@ -5255,17 +5255,6 @@
 				)
 			)
 		)
-		(property "Link" "https://www.lcsc.com/product-detail/C481898.html"
-			(at 124.46 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "13"
 			(uuid "c5822c18-b09b-4b8b-990d-9e6d33a63170")
 		)
@@ -5374,17 +5363,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 33.02 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/C1590.html"
 			(at 33.02 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6186,17 +6164,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 69.85 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/C1590.html"
 			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
