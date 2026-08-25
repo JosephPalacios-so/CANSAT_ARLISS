@@ -6487,6 +6487,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6567,7 +6573,7 @@
 				)
 			)
 		)
-		(property "MPN" "0466.750NRHF"
+		(property "MPN" "0466.250NRHF"
 			(at 139.7 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6578,7 +6584,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C187594"
+		(property "LCSC Part" "C83557"
 			(at 142.24 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6598,6 +6604,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "F2")
 					(unit 1)
 				)
@@ -6715,6 +6727,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "R33")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6789,6 +6807,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0170")
 					(unit 1)
 				)
@@ -6904,6 +6928,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6983,6 +7013,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7057,6 +7093,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0164")
 					(unit 1)
 				)
@@ -7171,6 +7213,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7245,6 +7293,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0174")
 					(unit 1)
 				)
@@ -7352,6 +7406,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7441,6 +7501,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7515,6 +7581,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR035")
 					(unit 1)
 				)
@@ -7597,6 +7669,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7671,6 +7749,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0123")
 					(unit 1)
 				)
@@ -7784,6 +7868,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "LED4")
 					(unit 1)
 				)
@@ -7902,6 +7992,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "C33")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7976,6 +8072,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR092")
 					(unit 1)
 				)
@@ -8058,6 +8160,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8132,6 +8240,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0177")
 					(unit 1)
 				)
@@ -8254,6 +8368,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8367,6 +8487,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8441,6 +8567,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0179")
 					(unit 1)
 				)
@@ -8523,6 +8655,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8597,6 +8735,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0163")
 					(unit 1)
 				)
@@ -8719,6 +8863,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8793,6 +8943,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0173")
 					(unit 1)
 				)
@@ -8882,6 +9038,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "TP3")
 					(unit 1)
 				)
@@ -9011,6 +9173,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9101,6 +9269,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9175,6 +9349,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0166")
 					(unit 1)
 				)
@@ -9257,6 +9437,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9335,6 +9521,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9409,6 +9601,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0165")
 					(unit 1)
 				)
@@ -9499,6 +9697,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -9618,6 +9822,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "F1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9730,6 +9940,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "L2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9810,6 +10026,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9884,6 +10106,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR099")
 					(unit 1)
 				)
@@ -10003,6 +10231,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "C34")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10077,6 +10311,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0172")
 					(unit 1)
 				)
@@ -10161,6 +10401,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10239,6 +10485,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10313,6 +10565,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR093")
 					(unit 1)
 				)
@@ -10426,6 +10684,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "R32")
 					(unit 1)
 				)
@@ -10545,6 +10809,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10619,6 +10889,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0141")
 					(unit 1)
 				)
@@ -10701,6 +10977,12 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10775,6 +11057,12 @@
 		(instances
 			(project "ARLISS_STM32_2026"
 				(path "/9719ea46-14c4-4409-9c57-49dd5454c03f/efeb48d2-be8c-4c47-a263-81c8c7c61051"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
 					(reference "#PWR0178")
 					(unit 1)
 				)
@@ -10893,6 +11181,18 @@
 					(unit 1)
 				)
 			)
+			(project "Alimentacion_V2"
+				(path "/b8e9664d-e338-4312-ad21-f65c523aeaf0"
+					(reference "C35")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
